@@ -1,3 +1,5 @@
+"use client";
+
 import svgPaths from "../../imports/MenuBar/svg-6w2d5fe5hx";
 
 function ContactButton() {
@@ -16,7 +18,7 @@ function ContactButton() {
       />
       <button 
         onClick={scrollToContact}
-        className="absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] inset-[39.78%_12.39%_41.94%_59.64%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase hover:text-[#b7f9ff] transition-colors cursor-pointer border-none bg-transparent"
+        className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[39.78%_12.39%_41.94%_59.64%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase hover:text-[#b7f9ff] transition-colors cursor-pointer border-none bg-transparent"
       >
         <p className="leading-[16.8px]">Contact</p>
       </button>

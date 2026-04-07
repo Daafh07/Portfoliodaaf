@@ -3,10 +3,10 @@ import svgPaths from "./svg-l4o5pnehrr";
 function HeaderText() {
   return (
     <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
         <p className="leading-[80px]">PASSION</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center left-[864px] text-[21px] top-[221px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[864px] text-[21px] top-[221px] whitespace-nowrap">
         <p className="leading-[30px] mb-0">Lights out and away we go.</p>
         <p className="leading-[30px]">Visited Tracks:</p>
       </div>
@@ -425,7 +425,7 @@ function CasesName() {
   return (
     <div className="absolute contents left-[716px] top-[281px]" data-name="CASES-NAME">
       <div className="absolute bg-[#b7f9ff] h-[57px] left-[716px] rounded-[21px] top-[281px] w-[140px]" />
-      <div className="absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] inset-[26.95%_51.1%_71.89%_42.07%] justify-center leading-[0] not-italic text-[#01207d] text-[21px] text-center uppercase">
+      <div className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[26.95%_51.1%_71.89%_42.07%] justify-center leading-[0] not-italic text-[#01207d] text-[21px] text-center uppercase">
         <p className="leading-[16.8px]">Zandvoort</p>
       </div>
     </div>
@@ -436,7 +436,7 @@ function CasesName1() {
   return (
     <div className="absolute contents left-[872px] top-[281px]" data-name="CASES-NAME">
       <div className="absolute bg-[#01207d] h-[57px] left-[872px] rounded-[21px] top-[281px] w-[140px]" />
-      <div className="absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] inset-[26.95%_42.07%_71.89%_51.1%] justify-center leading-[0] not-italic text-[#b7f9ff] text-[21px] text-center uppercase">
+      <div className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[26.95%_42.07%_71.89%_51.1%] justify-center leading-[0] not-italic text-[#b7f9ff] text-[21px] text-center uppercase">
         <p className="leading-[16.8px]">RB-RING</p>
       </div>
     </div>

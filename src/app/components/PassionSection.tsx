@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import ZandvoortTrack from "../../imports/HomepageSection41/HomepageSection41-9-196";
 import RBRingTrack from "../../imports/HomepageSection41-2/HomepageSection41-1-1279";
@@ -12,7 +14,7 @@ export function PassionSection() {
         {/* Zandvoort button */}
         <button
           onClick={() => setSelectedTrack("zandvoort")}
-          className={`h-[57px] w-[140px] rounded-[21px] font-['Futura_Now_Headline:Cn_XBold',sans-serif] text-[21px] uppercase leading-[16.8px] transition-colors ${
+          className={`h-[57px] w-[140px] rounded-[21px] font-['Futura_Now_Headline',sans-serif] text-[21px] uppercase leading-[16.8px] transition-colors ${
             selectedTrack === "zandvoort"
               ? "bg-[#01207d] text-[#b7f9ff]"
               : "bg-[#b7f9ff] text-[#01207d]"
@@ -24,7 +26,7 @@ export function PassionSection() {
         {/* RB-Ring button */}
         <button
           onClick={() => setSelectedTrack("rb-ring")}
-          className={`h-[57px] w-[140px] rounded-[21px] font-['Futura_Now_Headline:Cn_XBold',sans-serif] text-[21px] uppercase leading-[16.8px] transition-colors ${
+          className={`h-[57px] w-[140px] rounded-[21px] font-['Futura_Now_Headline',sans-serif] text-[21px] uppercase leading-[16.8px] transition-colors ${
             selectedTrack === "rb-ring"
               ? "bg-[#01207d] text-[#b7f9ff]"
               : "bg-[#b7f9ff] text-[#01207d]"

@@ -1,9 +1,9 @@
 import svgPaths from "./svg-x2pye6654c";
-import imgDaafNotion1 from "./59b214f6f87477565a8984858d28c7b0ae87d4e5.png";
+const imgDaafNotion1 = "/assets/images/59b214f6f87477565a8984858d28c7b0ae87d4e5.png";
 
 function DhHeader() {
   return (
-    <div className="absolute contents font-['Futura_Now_Headline:Cn_XBold',sans-serif] left-[-14px] not-italic text-center top-[3px]" data-name="DH-Header">
+    <div className="absolute contents font-['Futura_Now_Headline',sans-serif] left-[-14px] not-italic text-center top-[3px]" data-name="DH-Header">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col h-[318px] justify-center leading-[0] left-[850px] text-[#b7f9ff] text-[224px] top-[162px] w-[1728px]">
         <p className="leading-[80px]">DAAF</p>
       </div>
@@ -40,7 +40,7 @@ function Contact() {
   return (
     <div className="absolute contents inset-[90.6%_41.18%_3.49%_50.46%]" data-name="Contact">
       <div className="absolute bg-[#b7f9ff] inset-[90.6%_41.18%_3.49%_50.46%] rounded-[25px]" />
-      <div className="absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] inset-[92.66%_42.64%_5.82%_51.91%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase">
+      <div className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[92.66%_42.64%_5.82%_51.91%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase">
         <p className="leading-[16.8px]">Contact</p>
       </div>
     </div>

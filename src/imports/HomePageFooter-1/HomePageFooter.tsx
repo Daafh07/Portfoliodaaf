@@ -1,5 +1,5 @@
 import svgPaths from "./svg-gkznar1xic";
-import imgDaafSawLight1 from "./32a7a2ea47f0184fc773a6607e771960462a056e.png";
+const imgDaafSawLight1 = "/assets/images/32a7a2ea47f0184fc773a6607e771960462a056e.png";
 
 function FooterBackstripes() {
   return (
@@ -32,34 +32,34 @@ function Footer() {
           <img alt="" className="absolute h-[147.05%] left-0 max-w-none top-0 w-full" src={imgDaafSawLight1} />
         </div>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-14px)] not-italic text-[#b7f9ff] text-[120px] text-center top-[406.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-14px)] not-italic text-[#b7f9ff] text-[120px] text-center top-[406.5px] w-[418px]">
         <p className="leading-[80px]">DAAF</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[705.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[705.5px] w-[418px]">
         <p className="leading-[80px]">TIKTOK</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[705.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[705.5px] w-[418px]">
         <p className="leading-[80px]">SOME WORK</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[767.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[767.5px] w-[418px]">
         <p className="leading-[80px]">INSTAGRAM</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[767.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[767.5px] w-[418px]">
         <p className="leading-[80px]">SHORT ABOUT</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[830.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[830.5px] w-[418px]">
         <p className="leading-[80px]">LINKEDIN</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[830.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[830.5px] w-[418px]">
         <p className="leading-[80px]">PASSION</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] left-[1341px] not-italic text-[#b7f9ff] text-[21px] text-center top-[643px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center leading-[0] left-[1341px] not-italic text-[#b7f9ff] text-[21px] text-center top-[643px] whitespace-nowrap">
         <p className="leading-[80px]">Follow me on</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] left-[386px] not-italic text-[#b7f9ff] text-[21px] text-center top-[643px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center leading-[0] left-[386px] not-italic text-[#b7f9ff] text-[21px] text-center top-[643px] whitespace-nowrap">
         <p className="leading-[80px]">Sections</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] justify-center leading-[0] left-[176px] not-italic text-[#01207d] text-[29px] text-center top-[1068px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] justify-center leading-[0] left-[176px] not-italic text-[#01207d] text-[29px] text-center top-[1068px] whitespace-nowrap">
         <p className="leading-[80px]">DAAF</p>
       </div>
     </div>
@@ -70,7 +70,7 @@ function Contact() {
   return (
     <div className="absolute contents inset-[12.26%_41.24%_81.83%_50.41%]" data-name="Contact">
       <div className="absolute bg-[#b7f9ff] inset-[12.26%_41.24%_81.83%_50.41%] rounded-[25px]" />
-      <div className="absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] inset-[14.32%_42.69%_84.15%_51.85%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase">
+      <div className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[14.32%_42.69%_84.15%_51.85%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase">
         <p className="leading-[16.8px]">Contact</p>
       </div>
     </div>
@@ -133,7 +133,7 @@ export default function HomePageFooter() {
         </div>
       </div>
       <MenuBar />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] justify-center leading-[0] left-[1549px] not-italic text-[#01207d] text-[29px] text-center top-[1068px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] justify-center leading-[0] left-[1549px] not-italic text-[#01207d] text-[29px] text-center top-[1068px] whitespace-nowrap">
         <p className="leading-[80px]">HEIJNEKAMP</p>
       </div>
     </div>

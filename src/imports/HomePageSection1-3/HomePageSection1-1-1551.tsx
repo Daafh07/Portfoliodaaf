@@ -1,9 +1,9 @@
 import svgPaths from "./svg-z58926i37";
-import imgDaafNotion1 from "./59b214f6f87477565a8984858d28c7b0ae87d4e5.png";
+const imgDaafNotion1 = "/assets/images/59b214f6f87477565a8984858d28c7b0ae87d4e5.png";
 
 function DhHeader() {
   return (
-    <div className="absolute contents font-['Futura_Now_Headline:Cn_XBold',sans-serif] left-[-14px] not-italic text-center top-[3px]" data-name="DH-Header">
+    <div className="absolute contents font-['Futura_Now_Headline',sans-serif] left-[-14px] not-italic text-center top-[3px]" data-name="DH-Header">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col h-[318px] justify-center leading-[0] left-[850px] text-[#b7f9ff] text-[224px] top-[162px] w-[1728px]">
         <p className="leading-[80px]">DAAF</p>
       </div>

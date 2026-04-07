@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="absolute contents inset-[15.05%_4.94%_13.98%_52.23%]" data-name="Contact">
       <div className="absolute bg-[#b7f9ff] inset-[15.05%_4.94%_13.98%_52.23%] rounded-[25px]" />
-      <div className="absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] inset-[39.78%_12.39%_41.94%_59.64%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase">
+      <div className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[39.78%_12.39%_41.94%_59.64%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase">
         <p className="leading-[16.8px]">Contact</p>
       </div>
     </div>

@@ -14,7 +14,7 @@ export function WorkOverlay({ onClose }: WorkOverlayProps) {
       {/* Close button */}
       <button
         onClick={onClose}
-        className="fixed top-8 right-8 z-[60] bg-[#01207d] text-[#b7f9ff] w-[60px] h-[60px] rounded-full flex items-center justify-center font-['Futura_Now_Headline:Cn_XBold',sans-serif] text-[32px] hover:bg-[#b7f9ff] hover:text-[#01207d] transition-colors cursor-pointer"
+        className="fixed top-8 right-8 z-[60] bg-[#01207d] text-[#b7f9ff] w-[60px] h-[60px] rounded-full flex items-center justify-center font-['Futura_Now_Headline',sans-serif] text-[32px] hover:bg-[#b7f9ff] hover:text-[#01207d] transition-colors cursor-pointer"
       >
         ×
       </button>

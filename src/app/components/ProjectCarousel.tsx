@@ -1,16 +1,22 @@
+"use client";
+
 import { useRef, useState } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import ReactSlick from "react-slick";
 import svgPaths from "../../imports/HomePageSection1-1-2/svg-ku65gtjwxc";
 
 // Import all project images
-import imgLivewall from "figma:asset/300c6d13ef3faa37b179257e77259f2d6542ab87.png";
-import imgEduCheck from "figma:asset/8e34e3de2f726cfa1f125c98a6613c41306d2d96.png";
-import imgRacingGame from "figma:asset/fd6072eff9e340359dfd223c2fd38b132518622f.png";
-import imgHeartbeatSense from "figma:asset/3fc7896ff9160daebc80ba451690187b27ac7d3d.png";
-import imgMoofPlanner from "figma:asset/37bc163016030fa308ca75945901495676409f04.png";
-import imgMelding from "figma:asset/eb0919ffe90352a6802afe0f7db704fc437cb0d4.png";
+const imgLivewall = "/assets/images/300c6d13ef3faa37b179257e77259f2d6542ab87.png";
+const imgEduCheck = "/assets/images/8e34e3de2f726cfa1f125c98a6613c41306d2d96.png";
+const imgRacingGame = "/assets/images/fd6072eff9e340359dfd223c2fd38b132518622f.png";
+const imgHeartbeatSense = "/assets/images/3fc7896ff9160daebc80ba451690187b27ac7d3d.png";
+const imgMoofPlanner = "/assets/images/37bc163016030fa308ca75945901495676409f04.png";
+const imgMelding = "/assets/images/eb0919ffe90352a6802afe0f7db704fc437cb0d4.png";
+
+type SlickComponent = typeof ReactSlick extends { default: infer T } ? T : typeof ReactSlick;
+
+const Slider = (
+  "default" in ReactSlick ? ReactSlick.default : ReactSlick
+) as SlickComponent;
 
 const projects = [
   { id: 1, name: "LIVEWALL", image: imgLivewall },
@@ -24,10 +30,10 @@ const projects = [
 function HeaderText() {
   return (
     <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
         <p className="leading-[80px]">SOME WORK</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center left-[863.5px] text-[21px] top-[208px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[863.5px] text-[21px] top-[208px] whitespace-nowrap">
         <p className="leading-[80px]">Press to expand my work</p>
       </div>
     </div>
@@ -38,7 +44,7 @@ function CasesName({ projectName }: { projectName: string }) {
   return (
     <div className="absolute left-1/2 -translate-x-1/2 top-[803px] flex justify-center items-center" data-name="CASES-NAME">
       <div className="bg-[#01207d] h-[57px] rounded-[21px] px-[24px] flex items-center justify-center transition-all duration-500 ease-in-out">
-        <p className="font-['Futura_Now_Headline:Cn_XBold',sans-serif] leading-[16.8px] not-italic text-[#b7f9ff] text-[21px] text-center uppercase whitespace-nowrap transition-opacity duration-500 ease-in-out">
+        <p className="font-['Futura_Now_Headline',sans-serif] leading-[16.8px] not-italic text-[#b7f9ff] text-[21px] text-center uppercase whitespace-nowrap transition-opacity duration-500 ease-in-out">
           {projectName}
         </p>
       </div>
@@ -92,7 +98,7 @@ function ProjectCard({ project, position }: ProjectCardProps) {
 
 export function ProjectCarousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const sliderRef = useRef<Slider>(null);
+  const sliderRef = useRef<InstanceType<typeof Slider>>(null);
 
   const settings = {
     className: "center",

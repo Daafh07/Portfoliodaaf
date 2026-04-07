@@ -10,7 +10,7 @@ export default function LoadingScreen() {
           </svg>
         </div>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[389px] justify-center leading-[0] left-[833px] not-italic text-[#b7f9ff] text-[459px] text-center top-[558.5px] w-[1728px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[389px] justify-center leading-[0] left-[833px] not-italic text-[#b7f9ff] text-[459px] text-center top-[558.5px] w-[1728px]">
         <p className="leading-[80px]">DAAF</p>
       </div>
       <div className="absolute h-[98.5px] left-[1163px] top-[403px] w-[47.5px]">

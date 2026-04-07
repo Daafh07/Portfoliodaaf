@@ -13,7 +13,7 @@ export default function LoadingScreen() {
       </div>
       
       {/* Main DAAF text - centered */}
-      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center font-['Futura_Now_Headline:Cn_XBold',sans-serif] not-italic text-[#b7f9ff] text-center">
+      <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center font-['Futura_Now_Headline',sans-serif] not-italic text-[#b7f9ff] text-center">
         <p className="text-[20vw] md:text-[15vw] lg:text-[12vw] xl:text-[180px] leading-none whitespace-nowrap">DAAF</p>
       </div>
       

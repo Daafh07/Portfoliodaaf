@@ -1,3 +1,5 @@
+"use client";
+
 import { useState, useEffect } from "react";
 import LoadingScreen from "../../imports/LoadingScreen-3-1/LoadingScreen-9-99";
 import { HomePageWithToggle } from "./HomePageWithToggle";

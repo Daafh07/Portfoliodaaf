@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import Link from "next/link";
 
 function BackNext() {
   return (
@@ -27,8 +27,8 @@ function BackNext1() {
 function Contact() {
   return (
     <div className="absolute bottom-[13.98%] contents left-1/2 right-[4.89%] top-[15.05%]" data-name="Contact">
-      <Link to="/" className="absolute bg-[#b7f9ff] bottom-[13.98%] left-1/2 right-[4.89%] rounded-[25px] top-[15.05%] hover:bg-[#01207d] transition-colors" />
-      <Link to="/" className="absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] inset-[39.78%_12.74%_41.94%_57.81%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase hover:text-[#b7f9ff] transition-colors no-underline pointer-events-auto">
+      <Link href="/" className="absolute bg-[#b7f9ff] bottom-[13.98%] left-1/2 right-[4.89%] rounded-[25px] top-[15.05%] hover:bg-[#01207d] transition-colors" />
+      <Link href="/" className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[39.78%_12.74%_41.94%_57.81%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase hover:text-[#b7f9ff] transition-colors no-underline pointer-events-auto">
         <p className="leading-[16.8px]">HOME</p>
       </Link>
     </div>

@@ -1,7 +1,9 @@
+"use client";
+
 import { useState } from "react";
 import HomePageSection16918 from "../../imports/HomePageSection1-5/HomePageSection1-6-918";
 import { ProjectCarousel } from "./ProjectCarousel";
-import { Link } from "react-router";
+import Link from "next/link";
 import ZandvoortTrack from "../../imports/HomepageSection41/HomepageSection41-9-196";
 import RBRingTrack from "../../imports/HomepageSection41-2/HomepageSection41-1-1279";
 
@@ -42,8 +44,8 @@ export function HomePageWithToggle() {
       {/* Clickable overlay for SUPERMARKET TEAMLEADER in SHORT ABOUT section */}
       <div className="absolute left-0 top-[2234px] w-[1728px] h-[1117px] pointer-events-none">
         <Link
-          to="/work"
-          className="block -translate-x-1/2 -translate-y-1/2 absolute font-['Futura_Now_Headline:Cn_XBold',sans-serif] 
+          href="/work"
+          className="block -translate-x-1/2 -translate-y-1/2 absolute font-['Futura_Now_Headline',sans-serif] 
                      leading-[0] left-[871px] not-italic text-[95px] text-center top-[555px] w-[1728px] 
                      pointer-events-auto cursor-pointer text-[#01207d] hover:text-[#0779ff] 
                      transition-colors bg-transparent border-none px-4 no-underline"
@@ -54,8 +56,8 @@ export function HomePageWithToggle() {
         
         {/* Clickable overlay for TRAVEL & FOOD ADDICT */}
         <Link
-          to="/travel"
-          className="block -translate-x-1/2 -translate-y-1/2 absolute font-['Futura_Now_Headline:Cn_XBold',sans-serif] 
+          href="/travel"
+          className="block -translate-x-1/2 -translate-y-1/2 absolute font-['Futura_Now_Headline',sans-serif] 
                      leading-[0] left-[871px] not-italic text-[95px] text-center top-[671px] w-[1728px] 
                      pointer-events-auto cursor-pointer text-[#01207d] hover:text-[#0779ff] 
                      transition-colors bg-transparent border-none px-4 no-underline"
@@ -70,7 +72,7 @@ export function HomePageWithToggle() {
         {/* SOME WORK button overlay - exact position matching the original */}
         <button
           onClick={() => scrollToSection("SOME WORK")}
-          className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] 
+          className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] 
                      h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[45px] 
                      text-center top-[705.5px] w-[418px] pointer-events-auto cursor-pointer
                      text-[#b7f9ff] hover:text-[#01207d] transition-colors bg-transparent border-none"
@@ -81,7 +83,7 @@ export function HomePageWithToggle() {
         {/* SHORT ABOUT button overlay - exact position matching the original */}
         <button
           onClick={() => scrollToSection("SHORT ABOUT")}
-          className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] 
+          className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] 
                      h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[45px] 
                      text-center top-[767.5px] w-[418px] pointer-events-auto cursor-pointer
                      text-[#b7f9ff] hover:text-[#01207d] transition-colors bg-transparent border-none"
@@ -92,7 +94,7 @@ export function HomePageWithToggle() {
         {/* PASSION button overlay - exact position matching the original */}
         <button
           onClick={() => scrollToSection("PASSION")}
-          className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] 
+          className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] 
                      h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[45px] 
                      text-center top-[830.5px] w-[418px] pointer-events-auto cursor-pointer
                      text-[#b7f9ff] hover:text-[#01207d] transition-colors bg-transparent border-none"
@@ -111,7 +113,7 @@ export function HomePageWithToggle() {
               console.log("Zandvoort clicked");
               setSelectedTrack("zandvoort");
             }}
-            className={`h-[57px] w-[140px] rounded-[21px] font-['Futura_Now_Headline:Cn_XBold',sans-serif] text-[21px] uppercase leading-[16.8px] transition-all cursor-pointer ${
+            className={`h-[57px] w-[140px] rounded-[21px] font-['Futura_Now_Headline',sans-serif] text-[21px] uppercase leading-[16.8px] transition-all cursor-pointer ${
               selectedTrack === "zandvoort"
                 ? "bg-[#b7f9ff] text-[#01207d]"
                 : "bg-[#01207d] text-[#b7f9ff]"
@@ -126,7 +128,7 @@ export function HomePageWithToggle() {
               console.log("RB-Ring clicked");
               setSelectedTrack("rb-ring");
             }}
-            className={`h-[57px] w-[140px] rounded-[21px] font-['Futura_Now_Headline:Cn_XBold',sans-serif] text-[21px] uppercase leading-[16.8px] transition-all cursor-pointer ${
+            className={`h-[57px] w-[140px] rounded-[21px] font-['Futura_Now_Headline',sans-serif] text-[21px] uppercase leading-[16.8px] transition-all cursor-pointer ${
               selectedTrack === "rb-ring"
                 ? "bg-[#b7f9ff] text-[#01207d]"
                 : "bg-[#01207d] text-[#b7f9ff]"

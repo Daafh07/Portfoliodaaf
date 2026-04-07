@@ -1,21 +1,21 @@
 import svgPaths from "./svg-595vwwqcbp";
-import imgPngClipartWorldMapIndonesiaGlobeWorldMapIndonesiaMapMiscellaneousWorld1 from "./d5ea843c9226235ddbbda9ca0649b9091060fd29.png";
-import imgImg75521 from "./9d1210420a88162cba0a3d76f3d1ff1059c27835.png";
-import imgImg65751 from "./ec6e747d8175cdeec61bb683b4f97c11063b6f00.png";
-import imgImg65741 from "./0af0c78df292063ebd9ae705c7e8edf840fedfcf.png";
-import imgImg65651 from "./c7ed376477b4f212ea453adec3ca8d88d86f791b.png";
-import imgImg65611 from "./c67e6d54d449b6673f188378dae42306479c61e8.png";
-import imgImg75361 from "./c5a0d9229b597efdd929c1c18cee078439adeba9.png";
-import imgImg755711 from "./527fe171b70c8e1903a1c7beef5f3e2a0c1567e9.png";
-import { Link } from "react-router";
+const imgPngClipartWorldMapIndonesiaGlobeWorldMapIndonesiaMapMiscellaneousWorld1 = "/assets/images/d5ea843c9226235ddbbda9ca0649b9091060fd29.png";
+const imgImg75521 = "/assets/images/9d1210420a88162cba0a3d76f3d1ff1059c27835.png";
+const imgImg65751 = "/assets/images/ec6e747d8175cdeec61bb683b4f97c11063b6f00.png";
+const imgImg65741 = "/assets/images/0af0c78df292063ebd9ae705c7e8edf840fedfcf.png";
+const imgImg65651 = "/assets/images/c7ed376477b4f212ea453adec3ca8d88d86f791b.png";
+const imgImg65611 = "/assets/images/c67e6d54d449b6673f188378dae42306479c61e8.png";
+const imgImg75361 = "/assets/images/c5a0d9229b597efdd929c1c18cee078439adeba9.png";
+const imgImg755711 = "/assets/images/527fe171b70c8e1903a1c7beef5f3e2a0c1567e9.png";
+import Link from "next/link";
 
 function HeaderText() {
   return (
     <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
         <p className="leading-[80px]">TRAVEL</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center left-[863px] text-[21px] top-[208px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[863px] text-[21px] top-[208px] whitespace-nowrap">
         <p className="leading-[80px]">Life is either a daring adventure, or nothing</p>
       </div>
     </div>
@@ -25,8 +25,8 @@ function HeaderText() {
 function VisitedInf() {
   return (
     <div className="absolute contents left-[532px] not-italic text-center top-[2474px]" data-name="VisitedINF">
-      <p className="-translate-x-1/2 absolute font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[142px] leading-[116px] left-[864px] text-[#01207d] text-[66px] top-[2474px] w-[664px]">Indonesia</p>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] left-[863.5px] text-[#b7f9ff] text-[21px] top-[2589px] whitespace-nowrap">
+      <p className="-translate-x-1/2 absolute font-['Futura_Now_Headline',sans-serif] h-[142px] leading-[116px] left-[864px] text-[#01207d] text-[66px] top-[2474px] w-[664px]">Indonesia</p>
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center leading-[0] left-[863.5px] text-[#b7f9ff] text-[21px] top-[2589px] whitespace-nowrap">
         <p className="leading-[30px]">Bali</p>
       </div>
     </div>
@@ -60,8 +60,8 @@ function BackNext1() {
 function Contact() {
   return (
     <div className="absolute bottom-[1.35%] contents left-1/2 right-[41.65%] top-[96.7%]" data-name="Contact">
-      <Link to="/" className="absolute bg-[#b7f9ff] bottom-[1.35%] left-1/2 right-[41.65%] rounded-[25px] top-[96.7%] hover:bg-[#01207d] transition-colors" />
-      <Link to="/" className="absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] inset-[97.38%_43.1%_2.12%_51.45%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase hover:text-[#b7f9ff] transition-colors no-underline pointer-events-auto">
+      <Link href="/" className="absolute bg-[#b7f9ff] bottom-[1.35%] left-1/2 right-[41.65%] rounded-[25px] top-[96.7%] hover:bg-[#01207d] transition-colors" />
+      <Link href="/" className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[97.38%_43.1%_2.12%_51.45%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase hover:text-[#b7f9ff] transition-colors no-underline pointer-events-auto">
         <p className="leading-[16.8px]">HOME</p>
       </Link>
     </div>
@@ -143,10 +143,10 @@ export default function HomepageSection3Overlaytravel() {
   return (
     <div className="bg-[#0779ff] relative size-full" data-name="Homepage-Section3OVERLAYTRAVEL">
       <HeaderText />
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[166px] justify-center leading-[0] left-[863.5px] not-italic text-[#b7f9ff] text-[107px] text-center top-[2407px] w-[2111px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center leading-[0] left-[863.5px] not-italic text-[#b7f9ff] text-[107px] text-center top-[2407px] w-[2111px]">
         <p className="leading-[80px]">EXPLORE MY WORLD</p>
       </div>
-      <div className="-translate-x-1/2 absolute font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[2112px] leading-[0] left-[863.5px] not-italic text-[#01207d] text-[66px] text-center top-[347px] w-[1305px] whitespace-pre-wrap">
+      <div className="-translate-x-1/2 absolute font-['Futura_Now_Headline',sans-serif] h-[2112px] leading-[0] left-[863.5px] not-italic text-[#01207d] text-[66px] text-center top-[347px] w-[1305px] whitespace-pre-wrap">
         <p className="leading-[116px] mb-0">I love travelling the world, from Europe to Asia, from Asia to America. I want to have been everywhere by the time I’m old.</p>
         <p className="leading-[116px] mb-0">&nbsp;</p>
         <p className="leading-[116px] mb-0">I’ve always been keen to learn more about and see culture, architecture, history and the must-see destinations.</p>

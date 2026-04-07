@@ -1,15 +1,15 @@
 import svgPaths from "./svg-x41t8oj5rt";
-import imgCases from "./300c6d13ef3faa37b179257e77259f2d6542ab87.png";
-import imgSchermAfbeelding20260331Om1610031 from "./8e34e3de2f726cfa1f125c98a6613c41306d2d96.png";
-import imgSchermAfbeelding20260331Om1610032 from "./fd6072eff9e340359dfd223c2fd38b132518622f.png";
+const imgCases = "/assets/images/300c6d13ef3faa37b179257e77259f2d6542ab87.png";
+const imgSchermAfbeelding20260331Om1610031 = "/assets/images/8e34e3de2f726cfa1f125c98a6613c41306d2d96.png";
+const imgSchermAfbeelding20260331Om1610032 = "/assets/images/fd6072eff9e340359dfd223c2fd38b132518622f.png";
 
 function HeaderText() {
   return (
     <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
         <p className="leading-[80px]">SOME WORK</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center left-[863.5px] text-[21px] top-[208px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[863.5px] text-[21px] top-[208px] whitespace-nowrap">
         <p className="leading-[80px]">Press to expand my work</p>
       </div>
     </div>
@@ -20,7 +20,7 @@ function Contact() {
   return (
     <div className="absolute contents inset-[90.33%_41.24%_3.76%_50.41%]" data-name="Contact">
       <div className="absolute bg-[#b7f9ff] inset-[90.33%_41.24%_3.76%_50.41%] rounded-[25px]" />
-      <div className="absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] inset-[92.39%_42.69%_6.09%_51.85%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase">
+      <div className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[92.39%_42.69%_6.09%_51.85%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase">
         <p className="leading-[16.8px]">Contact</p>
       </div>
     </div>
@@ -68,7 +68,7 @@ function CasesName() {
   return (
     <div className="absolute contents left-[814px] top-[803px]" data-name="CASES-NAME">
       <div className="absolute bg-[#01207d] h-[57px] left-[814px] rounded-[21px] top-[803px] w-[114px]" />
-      <div className="absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] inset-[73.59%_47.05%_25.25%_48.03%] justify-center leading-[0] not-italic text-[#b7f9ff] text-[21px] text-center uppercase">
+      <div className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[73.59%_47.05%_25.25%_48.03%] justify-center leading-[0] not-italic text-[#b7f9ff] text-[21px] text-center uppercase">
         <p className="leading-[16.8px]">LIVEWALL</p>
       </div>
     </div>

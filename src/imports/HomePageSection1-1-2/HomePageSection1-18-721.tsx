@@ -1,13 +1,13 @@
 import svgPaths from "./svg-ku65gtjwxc";
-import imgDaafNotion1 from "./59b214f6f87477565a8984858d28c7b0ae87d4e5.png";
-import imgCases from "./300c6d13ef3faa37b179257e77259f2d6542ab87.png";
-import imgSchermAfbeelding20260331Om1610031 from "./8e34e3de2f726cfa1f125c98a6613c41306d2d96.png";
-import imgSchermAfbeelding20260331Om1610032 from "./fd6072eff9e340359dfd223c2fd38b132518622f.png";
-import imgDaafSawLight1 from "./32a7a2ea47f0184fc773a6607e771960462a056e.png";
+const imgDaafNotion1 = "/assets/images/59b214f6f87477565a8984858d28c7b0ae87d4e5.png";
+const imgCases = "/assets/images/300c6d13ef3faa37b179257e77259f2d6542ab87.png";
+const imgSchermAfbeelding20260331Om1610031 = "/assets/images/8e34e3de2f726cfa1f125c98a6613c41306d2d96.png";
+const imgSchermAfbeelding20260331Om1610032 = "/assets/images/fd6072eff9e340359dfd223c2fd38b132518622f.png";
+const imgDaafSawLight1 = "/assets/images/32a7a2ea47f0184fc773a6607e771960462a056e.png";
 
 function DhHeader() {
   return (
-    <div className="absolute contents font-['Futura_Now_Headline:Cn_XBold',sans-serif] left-[-14px] not-italic text-center top-[3px]" data-name="DH-Header">
+    <div className="absolute contents font-['Futura_Now_Headline',sans-serif] left-[-14px] not-italic text-center top-[3px]" data-name="DH-Header">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col h-[318px] justify-center leading-[0] left-[850px] text-[#b7f9ff] text-[224px] top-[162px] w-[1728px]">
         <p className="leading-[80px]">DAAF</p>
       </div>
@@ -174,10 +174,10 @@ function HomePageSection1() {
 function HeaderText() {
   return (
     <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
         <p className="leading-[80px]">SOME WORK</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center left-[863.5px] text-[21px] top-[208px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[863.5px] text-[21px] top-[208px] whitespace-nowrap">
         <p className="leading-[80px]">Press to expand my work</p>
       </div>
     </div>
@@ -188,7 +188,7 @@ function CasesName() {
   return (
     <div className="absolute contents left-[814px] top-[803px]" data-name="CASES-NAME">
       <div className="absolute bg-[#01207d] h-[57px] left-[814px] rounded-[21px] top-[803px] w-[114px]" />
-      <div className="absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] inset-[73.59%_47.05%_25.25%_48.03%] justify-center leading-[0] not-italic text-[#b7f9ff] text-[21px] text-center uppercase">
+      <div className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[73.59%_47.05%_25.25%_48.03%] justify-center leading-[0] not-italic text-[#b7f9ff] text-[21px] text-center uppercase">
         <p className="leading-[16.8px]">LIVEWALL</p>
       </div>
     </div>
@@ -242,10 +242,10 @@ function HomepageSection() {
 function HeaderText1() {
   return (
     <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
         <p className="leading-[80px]">SHORT ABOUT</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center left-[863px] text-[21px] top-[208px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[863px] text-[21px] top-[208px] whitespace-nowrap">
         <p className="leading-[80px]">Get to know me fast</p>
       </div>
     </div>
@@ -263,13 +263,13 @@ function HomepageSection1() {
           </svg>
         </div>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[544px] justify-center leading-[0] left-[871px] not-italic text-[#01207d] text-[95px] text-center top-[555px] w-[1728px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[544px] justify-center leading-[0] left-[871px] not-italic text-[#01207d] text-[95px] text-center top-[555px] w-[1728px]">
         <p className="leading-[116px] mb-0">INTERACTIVE DESIGN STUDENT,</p>
         <p className="leading-[116px] mb-0">SUPERMARKET TEAMLEADER,</p>
         <p className="leading-[116px] mb-0">{`TRAVEL & FOOD ADDICT,`}</p>
         <p className="leading-[116px]">PROACTIVE</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] left-[863.5px] not-italic text-[#b7f9ff] text-[21px] text-center top-[895px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center leading-[0] left-[863.5px] not-italic text-[#b7f9ff] text-[21px] text-center top-[895px] whitespace-nowrap">
         <p className="leading-[80px]">“Be the change you wish to see in the world.”</p>
       </div>
     </div>
@@ -279,10 +279,10 @@ function HomepageSection1() {
 function HeaderText2() {
   return (
     <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
         <p className="leading-[80px]">PASSION</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center left-[864px] text-[21px] top-[221px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[864px] text-[21px] top-[221px] whitespace-nowrap">
         <p className="leading-[30px] mb-0">Lights out and away we go.</p>
         <p className="leading-[30px]">Visited Tracks:</p>
       </div>
@@ -701,7 +701,7 @@ function CasesName1() {
   return (
     <div className="absolute contents left-[716px] top-[281px]" data-name="CASES-NAME">
       <div className="absolute bg-[#b7f9ff] h-[57px] left-[716px] rounded-[21px] top-[281px] w-[140px]" />
-      <div className="absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] inset-[26.95%_51.1%_71.89%_42.07%] justify-center leading-[0] not-italic text-[#01207d] text-[21px] text-center uppercase">
+      <div className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[26.95%_51.1%_71.89%_42.07%] justify-center leading-[0] not-italic text-[#01207d] text-[21px] text-center uppercase">
         <p className="leading-[16.8px]">Zandvoort</p>
       </div>
     </div>
@@ -712,7 +712,7 @@ function CasesName2() {
   return (
     <div className="absolute contents left-[872px] top-[281px]" data-name="CASES-NAME">
       <div className="absolute bg-[#01207d] h-[57px] left-[872px] rounded-[21px] top-[281px] w-[140px]" />
-      <div className="absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] inset-[26.95%_42.07%_71.89%_51.1%] justify-center leading-[0] not-italic text-[#b7f9ff] text-[21px] text-center uppercase">
+      <div className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[26.95%_42.07%_71.89%_51.1%] justify-center leading-[0] not-italic text-[#b7f9ff] text-[21px] text-center uppercase">
         <p className="leading-[16.8px]">RB-RING</p>
       </div>
     </div>
@@ -832,34 +832,34 @@ function Footer() {
           <img alt="" className="absolute h-[147.05%] left-0 max-w-none top-0 w-full" src={imgDaafSawLight1} />
         </div>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-14px)] not-italic text-[#b7f9ff] text-[120px] text-center top-[406.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-14px)] not-italic text-[#b7f9ff] text-[120px] text-center top-[406.5px] w-[418px]">
         <p className="leading-[80px]">DAAF</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[705.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[705.5px] w-[418px]">
         <p className="leading-[80px]">TIKTOK</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[705.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[705.5px] w-[418px]">
         <p className="leading-[80px]">SOME WORK</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[767.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[767.5px] w-[418px]">
         <p className="leading-[80px]">INSTAGRAM</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[767.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[767.5px] w-[418px]">
         <p className="leading-[80px]">SHORT ABOUT</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[830.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[830.5px] w-[418px]">
         <p className="leading-[80px]">LINKEDIN</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[830.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-478px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[830.5px] w-[418px]">
         <p className="leading-[80px]">PASSION</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] left-[1341px] not-italic text-[#b7f9ff] text-[21px] text-center top-[643px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center leading-[0] left-[1341px] not-italic text-[#b7f9ff] text-[21px] text-center top-[643px] whitespace-nowrap">
         <p className="leading-[80px]">Follow me on</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Medium',sans-serif] font-medium justify-center leading-[0] left-[386px] not-italic text-[#b7f9ff] text-[21px] text-center top-[643px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center leading-[0] left-[386px] not-italic text-[#b7f9ff] text-[21px] text-center top-[643px] whitespace-nowrap">
         <p className="leading-[80px]">Sections</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] justify-center leading-[0] left-[176px] not-italic text-[#01207d] text-[29px] text-center top-[1068px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] justify-center leading-[0] left-[176px] not-italic text-[#01207d] text-[29px] text-center top-[1068px] whitespace-nowrap">
         <p className="leading-[80px]">DAAF</p>
       </div>
     </div>
@@ -884,7 +884,7 @@ function HomePageFooter() {
           </svg>
         </div>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline:Cn_XBold',sans-serif] justify-center leading-[0] left-[1549px] not-italic text-[#01207d] text-[29px] text-center top-[1068px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] justify-center leading-[0] left-[1549px] not-italic text-[#01207d] text-[29px] text-center top-[1068px] whitespace-nowrap">
         <p className="leading-[80px]">HEIJNEKAMP</p>
       </div>
     </div>
