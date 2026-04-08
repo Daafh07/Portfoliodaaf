@@ -21,6 +21,7 @@ const projects = [
 
 const SLIDE_WIDTH = 785;
 const VISUAL_OFFSET_Y = -36;
+const SNAP_THRESHOLD = 18;
 
 function HeaderText() {
   return (
@@ -205,9 +206,9 @@ export function ProjectCarousel() {
 
     suppressClickRef.current = Math.abs(dragOffset) > 8;
 
-    if (dragOffset < -SLIDE_WIDTH / 2) {
+    if (dragOffset < -SNAP_THRESHOLD) {
       goToSlide(1);
-    } else if (dragOffset > SLIDE_WIDTH / 2) {
+    } else if (dragOffset > SNAP_THRESHOLD) {
       goToSlide(-1);
     }
 
