@@ -4,11 +4,11 @@ function HeaderText() {
   return (
     <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
-        <p className="leading-[80px]">PASSION</p>
+        <p className="leading-[80px]" data-scramble-persist-key="passion-heading" data-scramble-text="PASSION">PASSION</p>
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[864px] text-[21px] top-[221px] whitespace-nowrap">
-        <p className="leading-[30px] mb-0">Lights out and away we go.</p>
-        <p className="leading-[30px]">Visited Tracks:</p>
+        <p className="leading-[30px] mb-0" data-scramble-chars="lowerCase" data-scramble-persist-key="passion-subtitle" data-scramble-text="Lights out and away we go.">Lights out and away we go.</p>
+        <p className="leading-[30px]" data-scramble-persist-key="passion-tracks-label" data-scramble-text="Visited Tracks:">Visited Tracks:</p>
       </div>
     </div>
   );
@@ -28,9 +28,9 @@ function Group1() {
 
 function Group() {
   return (
-    <div className="absolute contents inset-[27.75%_6.57%_66.75%_86.57%]" data-name="Group">
+    <div className="passion-flair absolute contents inset-[27.75%_6.57%_66.75%_86.57%]" data-name="Group">
       <div className="absolute flex inset-[27.75%_6.57%_66.75%_86.57%] items-center justify-center">
-        <div className="flex-none h-[34.554px] rotate-[14.23deg] w-[113.535px]">
+        <div className="passion-flair flex-none h-[34.554px] rotate-[14.23deg] w-[113.535px]">
           <Group1 />
         </div>
       </div>
@@ -52,9 +52,9 @@ function Group3() {
 
 function Group2() {
   return (
-    <div className="absolute contents inset-[52.98%_87.19%_42.02%_5.97%]" data-name="Group">
+    <div className="passion-flair absolute contents inset-[52.98%_87.19%_42.02%_5.97%]" data-name="Group">
       <div className="absolute flex inset-[52.98%_87.19%_42.02%_5.97%] items-center justify-center">
-        <div className="flex-none h-[34.554px] rotate-[-11.11deg] w-[113.535px]">
+        <div className="passion-flair flex-none h-[34.554px] rotate-[-11.11deg] w-[113.535px]">
           <Group3 />
         </div>
       </div>
@@ -76,9 +76,9 @@ function Group5() {
 
 function Group4() {
   return (
-    <div className="absolute contents inset-[3.76%_90.02%_90.91%_3.13%]" data-name="Group">
+    <div className="passion-flair absolute contents inset-[3.76%_90.02%_90.91%_3.13%]" data-name="Group">
       <div className="absolute flex inset-[3.76%_90.02%_90.91%_3.13%] items-center justify-center">
-        <div className="flex-none h-[34.554px] rotate-[13.18deg] w-[113.535px]">
+        <div className="passion-flair flex-none h-[34.554px] rotate-[13.18deg] w-[113.535px]">
           <Group5 />
         </div>
       </div>
@@ -100,9 +100,9 @@ function Group7() {
 
 function Group6() {
   return (
-    <div className="absolute contents inset-[7.14%_6.25%_84.81%_87.13%]" data-name="Group">
+    <div className="passion-flair absolute contents inset-[7.14%_6.25%_84.81%_87.13%]" data-name="Group">
       <div className="absolute flex inset-[7.14%_6.25%_84.81%_87.13%] items-center justify-center">
-        <div className="flex-none h-[34.554px] rotate-[-32.39deg] w-[113.535px]">
+        <div className="passion-flair flex-none h-[34.554px] rotate-[-32.39deg] w-[113.535px]">
           <Group7 />
         </div>
       </div>
@@ -124,9 +124,9 @@ function Group9() {
 
 function Group8() {
   return (
-    <div className="absolute contents inset-[60.34%_5.58%_32.17%_87.67%]" data-name="Group">
+    <div className="passion-flair absolute contents inset-[60.34%_5.58%_32.17%_87.67%]" data-name="Group">
       <div className="absolute flex inset-[60.34%_5.58%_32.17%_87.67%] items-center justify-center">
-        <div className="flex-none h-[34.554px] rotate-[27.93deg] w-[113.535px]">
+        <div className="passion-flair flex-none h-[34.554px] rotate-[27.93deg] w-[113.535px]">
           <Group9 />
         </div>
       </div>
@@ -148,9 +148,9 @@ function Group11() {
 
 function Group10() {
   return (
-    <div className="absolute contents inset-[90.42%_20.46%_4.96%_72.74%]" data-name="Group">
+    <div className="passion-flair absolute contents inset-[90.42%_20.46%_4.96%_72.74%]" data-name="Group">
       <div className="absolute flex inset-[90.42%_20.46%_4.96%_72.74%] items-center justify-center">
-        <div className="flex-none h-[34.554px] rotate-[8.84deg] w-[113.535px]">
+        <div className="passion-flair flex-none h-[34.554px] rotate-[8.84deg] w-[113.535px]">
           <Group11 />
         </div>
       </div>
@@ -172,9 +172,9 @@ function Group13() {
 
 function Group12() {
   return (
-    <div className="absolute contents inset-[40.68%_78.6%_52.37%_14.58%]" data-name="Group">
+    <div className="passion-flair absolute contents inset-[40.68%_78.6%_52.37%_14.58%]" data-name="Group">
       <div className="absolute flex inset-[40.68%_78.6%_52.37%_14.58%] items-center justify-center">
-        <div className="flex-none h-[34.554px] rotate-[23.88deg] w-[113.535px]">
+        <div className="passion-flair flex-none h-[34.554px] rotate-[23.88deg] w-[113.535px]">
           <Group13 />
         </div>
       </div>
@@ -196,9 +196,9 @@ function Group15() {
 
 function Group14() {
   return (
-    <div className="absolute contents inset-[41.72%_97.33%_53.29%_-4.17%]" data-name="Group">
+    <div className="passion-flair absolute contents inset-[41.72%_97.33%_53.29%_-4.17%]" data-name="Group">
       <div className="absolute flex inset-[41.72%_97.33%_53.29%_-4.17%] items-center justify-center">
-        <div className="flex-none h-[34.554px] rotate-[-11.11deg] w-[113.535px]">
+        <div className="passion-flair flex-none h-[34.554px] rotate-[-11.11deg] w-[113.535px]">
           <Group15 />
         </div>
       </div>
@@ -220,9 +220,9 @@ function Group17() {
 
 function Group16() {
   return (
-    <div className="absolute contents inset-[63.53%_97.13%_27.83%_-3.56%]" data-name="Group">
+    <div className="passion-flair absolute contents inset-[63.53%_97.13%_27.83%_-3.56%]" data-name="Group">
       <div className="absolute flex inset-[63.53%_97.13%_27.83%_-3.56%] items-center justify-center">
-        <div className="flex-none h-[34.554px] rotate-[37.47deg] w-[113.535px]">
+        <div className="passion-flair flex-none h-[34.554px] rotate-[37.47deg] w-[113.535px]">
           <Group17 />
         </div>
       </div>
@@ -244,9 +244,9 @@ function Group19() {
 
 function Group18() {
   return (
-    <div className="absolute contents inset-[93.93%_96.18%_-3.61%_-2.02%]" data-name="Group">
+    <div className="passion-flair absolute contents inset-[93.93%_96.18%_-3.61%_-2.02%]" data-name="Group">
       <div className="absolute flex inset-[93.93%_96.18%_-3.61%_-2.02%] items-center justify-center">
-        <div className="flex-none h-[34.554px] rotate-[131.36deg] w-[113.535px]">
+        <div className="passion-flair flex-none h-[34.554px] rotate-[131.36deg] w-[113.535px]">
           <Group19 />
         </div>
       </div>
@@ -268,9 +268,9 @@ function Group21() {
 
 function Group20() {
   return (
-    <div className="absolute contents inset-[15.04%_94.54%_79.62%_-1.39%]" data-name="Group">
+    <div className="passion-flair absolute contents inset-[15.04%_94.54%_79.62%_-1.39%]" data-name="Group">
       <div className="absolute flex inset-[15.04%_94.54%_79.62%_-1.39%] items-center justify-center">
-        <div className="flex-none h-[34.554px] rotate-[-13.26deg] w-[113.535px]">
+        <div className="passion-flair flex-none h-[34.554px] rotate-[-13.26deg] w-[113.535px]">
           <Group21 />
         </div>
       </div>
@@ -292,9 +292,9 @@ function Group23() {
 
 function Group22() {
   return (
-    <div className="absolute contents inset-[42.88%_-4.2%_51.62%_97.34%]" data-name="Group">
+    <div className="passion-flair absolute contents inset-[42.88%_-4.2%_51.62%_97.34%]" data-name="Group">
       <div className="absolute flex inset-[42.88%_-4.2%_51.62%_97.34%] items-center justify-center">
-        <div className="flex-none h-[34.554px] rotate-[14.23deg] w-[113.535px]">
+        <div className="passion-flair flex-none h-[34.554px] rotate-[14.23deg] w-[113.535px]">
           <Group23 />
         </div>
       </div>
@@ -316,9 +316,9 @@ function Group25() {
 
 function Group24() {
   return (
-    <div className="absolute contents inset-[93.99%_-1.24%_-0.41%_94.39%]" data-name="Group">
+    <div className="passion-flair absolute contents inset-[93.99%_-1.24%_-0.41%_94.39%]" data-name="Group">
       <div className="absolute flex inset-[93.99%_-1.24%_-0.41%_94.39%] items-center justify-center">
-        <div className="flex-none h-[34.554px] rotate-[-20.22deg] w-[113.535px]">
+        <div className="passion-flair flex-none h-[34.554px] rotate-[-20.22deg] w-[113.535px]">
           <Group25 />
         </div>
       </div>
@@ -390,22 +390,22 @@ function BackIcons() {
       <Group20 />
       <Group22 />
       <Group24 />
-      <div className="absolute flex items-center justify-center left-[1391px] size-[134.076px] top-[443px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
+      <div className="passion-flair absolute flex items-center justify-center left-[1391px] size-[134.076px] top-[443px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
         <div className="flex-none rotate-[-15.43deg]">
           <SteeringWheel />
         </div>
       </div>
-      <div className="absolute flex items-center justify-center left-[94px] size-[142.74px] top-[239px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
+      <div className="passion-flair absolute flex items-center justify-center left-[94px] size-[142.74px] top-[239px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
         <div className="flex-none rotate-[-22.82deg]">
           <SteeringWheel1 />
         </div>
       </div>
-      <div className="absolute flex items-center justify-center left-[1476px] size-[130.228px] top-[865px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
+      <div className="passion-flair absolute flex items-center justify-center left-[1476px] size-[130.228px] top-[865px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
         <div className="flex-none rotate-[12.65deg]">
           <SteeringWheel2 />
         </div>
       </div>
-      <div className="absolute flex items-center justify-center left-[81px] size-[151.455px] top-[794px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
+      <div className="passion-flair absolute flex items-center justify-center left-[81px] size-[151.455px] top-[794px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
         <div className="flex-none rotate-[34.27deg]">
           <SteeringWheel3 />
         </div>
@@ -423,7 +423,7 @@ function BackIcons() {
 
 function CasesName() {
   return (
-    <div className="absolute contents left-[716px] top-[281px]" data-name="CASES-NAME">
+    <div className="absolute contents left-[716px] top-[281px] opacity-0 pointer-events-none select-none" data-name="CASES-NAME">
       <div className="absolute bg-[#b7f9ff] h-[57px] left-[716px] rounded-[21px] top-[281px] w-[140px]" />
       <div className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[26.95%_51.1%_71.89%_42.07%] justify-center leading-[0] not-italic text-[#01207d] text-[21px] text-center uppercase">
         <p className="leading-[16.8px]">Zandvoort</p>
@@ -434,7 +434,7 @@ function CasesName() {
 
 function CasesName1() {
   return (
-    <div className="absolute contents left-[872px] top-[281px]" data-name="CASES-NAME">
+    <div className="absolute contents left-[872px] top-[281px] opacity-0 pointer-events-none select-none" data-name="CASES-NAME">
       <div className="absolute bg-[#01207d] h-[57px] left-[872px] rounded-[21px] top-[281px] w-[140px]" />
       <div className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[26.95%_42.07%_71.89%_51.1%] justify-center leading-[0] not-italic text-[#b7f9ff] text-[21px] text-center uppercase">
         <p className="leading-[16.8px]">RB-RING</p>

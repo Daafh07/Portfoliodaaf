@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { ScrambleTextEffect } from "./components/ScrambleTextEffect";
+import { TextHoverEffect } from "./components/TextHoverEffect";
 import "../styles/index.css";
 
 export const metadata: Metadata = {
@@ -15,7 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="nl">
-      <body>{children}</body>
+      <body>
+        <ScrambleTextEffect />
+        <TextHoverEffect />
+        {children}
+      </body>
     </html>
   );
 }

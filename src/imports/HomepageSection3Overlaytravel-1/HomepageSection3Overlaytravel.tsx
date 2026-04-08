@@ -13,10 +13,10 @@ function HeaderText() {
   return (
     <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
-        <p className="leading-[80px]">TRAVEL</p>
+        <p className="leading-[80px]" data-scramble-text="TRAVEL">TRAVEL</p>
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[863px] text-[21px] top-[208px] whitespace-nowrap">
-        <p className="leading-[80px]">Life is either a daring adventure, or nothing</p>
+        <p className="leading-[80px]" data-scramble-chars="lowerCase" data-scramble-text="Life is either a daring adventure, or nothing">Life is either a daring adventure, or nothing</p>
       </div>
     </div>
   );
@@ -144,7 +144,7 @@ export default function HomepageSection3Overlaytravel() {
     <div className="bg-[#0779ff] relative size-full" data-name="Homepage-Section3OVERLAYTRAVEL">
       <HeaderText />
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center leading-[0] left-[863.5px] not-italic text-[#b7f9ff] text-[107px] text-center top-[2407px] w-[2111px]">
-        <p className="leading-[80px]">EXPLORE MY WORLD</p>
+        <p className="leading-[80px]" data-scramble-text="EXPLORE MY WORLD">EXPLORE MY WORLD</p>
       </div>
       <div className="-translate-x-1/2 absolute font-['Futura_Now_Headline',sans-serif] h-[2112px] leading-[0] left-[863.5px] not-italic text-[#01207d] text-[66px] text-center top-[347px] w-[1305px] whitespace-pre-wrap">
         <p className="leading-[116px] mb-0">I love travelling the world, from Europe to Asia, from Asia to America. I want to have been everywhere by the time I’m old.</p>

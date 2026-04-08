@@ -1,3 +1,4 @@
+import Link from "next/link";
 import svgPaths from "./svg-ovgztycmgm";
 const imgDaafNotion1 = "/assets/images/59b214f6f87477565a8984858d28c7b0ae87d4e5.png";
 const imgCases = "/assets/images/300c6d13ef3faa37b179257e77259f2d6542ab87.png";
@@ -9,9 +10,9 @@ function DhHeader() {
   return (
     <div className="absolute contents font-['Futura_Now_Headline',sans-serif] left-[-14px] not-italic text-center top-[3px]" data-name="DH-Header">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col h-[318px] justify-center leading-[0] left-[850px] text-[#b7f9ff] text-[224px] top-[162px] w-[1728px]">
-        <p className="leading-[80px]">DAAF</p>
+        <p className="leading-[80px]" data-scramble-text="DAAF">DAAF</p>
       </div>
-      <p className="-translate-x-1/2 absolute h-[103px] leading-[16.8px] left-[850px] text-[#01207d] text-[52px] top-[298px] uppercase w-[1728px]">HEIJNEKAMP</p>
+      <p className="-translate-x-1/2 absolute h-[103px] leading-[16.8px] left-[850px] text-[#01207d] text-[52px] top-[298px] uppercase w-[1728px]" data-scramble-text="HEIJNEKAMP">HEIJNEKAMP</p>
     </div>
   );
 }
@@ -32,7 +33,7 @@ function Group() {
   return (
     <div className="absolute contents inset-[44.23%_59.94%_50.62%_33.22%]" data-name="Group">
       <div className="absolute flex inset-[44.23%_59.94%_50.62%_33.22%] items-center justify-center">
-        <div className="flex-none h-[34.554px] rotate-[-12.08deg] w-[113.535px]">
+        <div className="flair--3b cursor-grab active:cursor-grabbing touch-none flex-none h-[34.554px] rotate-[-12.08deg] w-[113.535px]">
           <Group1 />
         </div>
       </div>
@@ -109,24 +110,24 @@ function HomePageSection1() {
       </div>
       <Group />
       <div className="absolute flex items-center justify-center left-[818px] size-[79.7px] top-[391px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
-        <div className="flex-none rotate-[-14.05deg]">
+        <div className="flair--3b cursor-grab active:cursor-grabbing touch-none flex-none rotate-[-14.05deg]">
           <div className="overflow-clip relative size-[65.71px]" data-name="figma">
             <Figma />
           </div>
         </div>
       </div>
       <div className="-translate-y-1/2 absolute aspect-[74.8786268234253/74.8786268234253] flex items-center justify-center left-[40.28%] right-[55.39%] top-[calc(50%-112.06px)]">
-        <div className="flex-none rotate-[10.82deg] size-[64px]">
+        <div className="flair--3b cursor-grab active:cursor-grabbing touch-none flex-none rotate-[10.82deg] size-[64px]">
           <div className="overflow-clip relative size-full" data-name="vs_code">
             <VsCode />
           </div>
         </div>
       </div>
       <div className="-translate-y-1/2 absolute aspect-[115.09209534729916/115.09209534729916] flex items-center justify-center left-[53.13%] right-[40.21%] top-[calc(50%-107.95px)]">
-        <div className="flex-none rotate-[17.26deg] size-[91.946px]">
-          <div className="overflow-clip relative size-full" data-name="apple">
+        <div className="flair--3b cursor-grab active:cursor-grabbing touch-none flex-none rotate-[17.26deg] size-[91.946px]">
+          <div className="overflow-visible relative size-full" data-name="apple">
             <div className="absolute inset-[21.88%_28.12%_28.12%_28.13%]" data-name="apple">
-              <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40.2265 45.9731">
+              <svg className="absolute block overflow-visible size-full" fill="none" preserveAspectRatio="none" viewBox="-1 -1 42.2265 47.9731">
                 <path d={svgPaths.p2ed61fc0} fill="var(--fill-0, #B7F9FF)" id="apple" />
               </svg>
             </div>
@@ -134,7 +135,7 @@ function HomePageSection1() {
         </div>
       </div>
       <div className="-translate-y-1/2 absolute aspect-[84.27330887317657/84.27330887317657] flex items-center justify-center left-[61.75%] right-[33.38%] top-[calc(50%+62.64px)]">
-        <div className="flex-none rotate-[10.86deg] size-[72px]">
+        <div className="flair--3b cursor-grab active:cursor-grabbing touch-none flex-none rotate-[10.86deg] size-[72px]">
           <div className="overflow-clip relative size-full" data-name="playstation">
             <div className="absolute inset-[9.38%_0]" data-name="playstation">
               <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 72 58.5">
@@ -145,7 +146,7 @@ function HomePageSection1() {
         </div>
       </div>
       <div className="-translate-y-1/2 absolute aspect-[77.31213122606277/77.31213122606277] flex items-center justify-center left-[59.48%] right-[36.04%] top-[calc(50%-39px)]">
-        <div className="flex-none rotate-[-141.3deg] size-[55px]">
+        <div className="flair--3b cursor-grab active:cursor-grabbing touch-none flex-none rotate-[-141.3deg] size-[55px]">
           <div className="relative size-full" data-name="Vector">
             <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 55 55">
               <path d={svgPaths.p2e5ea700} fill="var(--fill-0, #B7F9FF)" id="Vector" />
@@ -153,17 +154,17 @@ function HomePageSection1() {
           </div>
         </div>
       </div>
-      <div className="absolute left-[546px] size-[70px] top-[586px]" data-name="bg">
+      <div className="flair--3b cursor-grab active:cursor-grabbing touch-none absolute left-[546px] size-[70px] top-[586px]" data-name="spotify">
         <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 70 70">
           <circle cx="35" cy="35" fill="var(--fill-0, #B7F9FF)" id="bg" r="35" />
         </svg>
-      </div>
-      <div className="-translate-y-1/2 absolute flex h-[42.718px] items-center justify-center left-[32.29%] right-[64.95%] top-[calc(50%+63.86px)]">
-        <div className="flex-none h-[36px] rotate-[9.95deg] w-[42px]">
-          <div className="relative size-full" data-name="spotify">
-            <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 42 36">
-              <path d={svgPaths.p2cd02b00} fill="var(--fill-0, #0779FF)" id="spotify" />
-            </svg>
+        <div className="absolute flex h-[42.718px] items-center justify-center left-[12px] top-[15px] w-[47.693px]">
+          <div className="flex-none h-[36px] rotate-[9.95deg] w-[42px]">
+            <div className="relative size-full" data-name="spotify">
+              <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 42 36">
+                <path d={svgPaths.p2cd02b00} fill="var(--fill-0, #0779FF)" id="spotify" />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
@@ -175,10 +176,10 @@ function HeaderText() {
   return (
     <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
-        <p className="leading-[80px]">SOME WORK</p>
+        <p className="leading-[80px]" data-scramble-text="SOME WORK">SOME WORK</p>
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[863.5px] text-[21px] top-[208px] whitespace-nowrap">
-        <p className="leading-[80px]">Press to expand my work</p>
+        <p className="leading-[80px]" data-scramble-chars="lowerCase" data-scramble-text="Press to expand my work">Press to expand my work</p>
       </div>
     </div>
   );
@@ -243,10 +244,10 @@ function HeaderText1() {
   return (
     <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
-        <p className="leading-[80px]">SHORT ABOUT</p>
+        <p className="leading-[80px]" data-scramble-text="SHORT ABOUT">SHORT ABOUT</p>
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[863px] text-[21px] top-[208px] whitespace-nowrap">
-        <p className="leading-[80px]">Get to know me fast</p>
+        <p className="leading-[80px]" data-scramble-chars="lowerCase" data-scramble-text="Get to know me fast">Get to know me fast</p>
       </div>
     </div>
   );
@@ -264,10 +265,35 @@ function HomepageSection1() {
         </div>
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[544px] justify-center leading-[0] left-[871px] not-italic text-[#01207d] text-[95px] text-center top-[555px] w-[1728px]">
-        <p className="leading-[116px] mb-0">INTERACTIVE DESIGN STUDENT,</p>
-        <p className="leading-[116px] mb-0">SUPERMARKET TEAMLEADER,</p>
-        <p className="leading-[116px] mb-0">{`TRAVEL & FOOD ADDICT,`}</p>
-        <p className="leading-[116px]">PROACTIVE</p>
+        <p className="mb-0 leading-[116px]">
+          <span className="inline-block self-center text-[#01207d] transition-colors hover:text-[#b7f9ff]" data-anim="text-hover" data-text-hover-view="loose" split-text="chars">
+            INTERACTIVE DESIGN STUDENT
+          </span>
+          <span>,</span>
+        </p>
+        <p className="mb-0 leading-[116px]">
+          <Link href="/work" className="inline-block self-center text-[#01207d] transition-colors hover:text-[#b7f9ff] no-underline" data-anim="text-hover" data-text-hover-view="loose" split-text="chars">
+            SUPERMARKET TEAMLEADER
+          </Link>
+          <span>,</span>
+        </p>
+        <p className="mb-0 leading-[116px]">
+          <span className="inline-flex items-start gap-[0.08em]">
+            <Link href="/travel" className="inline-block text-[#01207d] hover:text-[#b7f9ff] transition-colors no-underline" data-anim="text-hover" data-text-hover-view="loose" split-text="chars">
+              TRAVEL
+            </Link>
+            <span>&</span>
+            <span className="inline-block text-[#01207d] hover:text-[#b7f9ff] transition-colors" data-anim="text-hover" data-text-hover-view="loose" split-text="chars">
+              FOOD ADDICT
+            </span>
+          </span>
+          <span>,</span>
+        </p>
+        <p className="leading-[116px]">
+          <span className="inline-block self-center text-[#01207d] hover:text-[#b7f9ff] transition-colors" data-anim="text-hover" data-text-hover-view="loose" split-text="chars">
+            PROACTIVE
+          </span>
+        </p>
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center leading-[0] left-[863.5px] not-italic text-[#b7f9ff] text-[21px] text-center top-[895px] whitespace-nowrap">
         <p className="leading-[80px]">“Be the change you wish to see in the world.”</p>
@@ -280,11 +306,11 @@ function HeaderText2() {
   return (
     <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
-        <p className="leading-[80px]">PASSION</p>
+        <p className="leading-[80px]" data-scramble-text="PASSION">PASSION</p>
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[864px] text-[21px] top-[221px] whitespace-nowrap">
-        <p className="leading-[30px] mb-0">Lights out and away we go.</p>
-        <p className="leading-[30px]">Visited Tracks:</p>
+        <p className="leading-[30px] mb-0" data-scramble-chars="lowerCase" data-scramble-text="Lights out and away we go.">Lights out and away we go.</p>
+        <p className="leading-[30px]" data-scramble-text="Visited Tracks:">Visited Tracks:</p>
       </div>
     </div>
   );
@@ -833,15 +859,15 @@ function Footer() {
         </div>
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%-14px)] not-italic text-[#b7f9ff] text-[120px] text-center top-[406.5px] w-[418px]">
-        <p className="leading-[80px]">DAAF</p>
+        <p className="leading-[80px]" data-scramble-text="DAAF">DAAF</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[705.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic opacity-0 pointer-events-none select-none text-[#b7f9ff] text-[45px] text-center top-[705.5px] w-[418px]">
         <p className="leading-[80px]">TIKTOK</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[767.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic opacity-0 pointer-events-none select-none text-[#b7f9ff] text-[45px] text-center top-[767.5px] w-[418px]">
         <p className="leading-[80px]">INSTAGRAM</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic text-[#b7f9ff] text-[45px] text-center top-[830.5px] w-[418px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[125px] justify-center leading-[0] left-[calc(50%+477px)] not-italic opacity-0 pointer-events-none select-none text-[#b7f9ff] text-[45px] text-center top-[830.5px] w-[418px]">
         <p className="leading-[80px]">LINKEDIN</p>
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center leading-[0] left-[1341px] not-italic text-[#b7f9ff] text-[21px] text-center top-[643px] whitespace-nowrap">
@@ -851,7 +877,7 @@ function Footer() {
         <p className="leading-[80px]">Sections</p>
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] justify-center leading-[0] left-[176px] not-italic text-[#01207d] text-[29px] text-center top-[1068px] whitespace-nowrap">
-        <p className="leading-[80px]">DAAF</p>
+        <p className="leading-[80px]" data-scramble-text="DAAF">DAAF</p>
       </div>
     </div>
   );
@@ -876,7 +902,7 @@ function HomePageFooter() {
         </div>
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] justify-center leading-[0] left-[1549px] not-italic text-[#01207d] text-[29px] text-center top-[1068px] whitespace-nowrap">
-        <p className="leading-[80px]">HEIJNEKAMP</p>
+        <p className="leading-[80px]" data-scramble-text="HEIJNEKAMP">HEIJNEKAMP</p>
       </div>
     </div>
   );
@@ -888,7 +914,7 @@ export default function HomePageSection() {
       <HomePageSection1 />
       {/* HomepageSection removed - replaced by ProjectCarousel in HomePageWithToggle */}
       <HomepageSection1 />
-      <HomepageSection2 />
+      {/* HomepageSection2 removed - replaced by PassionTrackOverlay in HomePageWithToggle */}
       <HomePageFooter />
     </div>
   );

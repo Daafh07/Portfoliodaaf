@@ -5,10 +5,10 @@ function HeaderText() {
   return (
     <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
-        <p className="leading-[80px]">WORK</p>
+        <p className="leading-[80px]" data-scramble-text="WORK">WORK</p>
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[863.5px] text-[21px] top-[208px] whitespace-nowrap">
-        <p className="leading-[80px]">The future depends on what you do today</p>
+        <p className="leading-[80px]" data-scramble-chars="lowerCase" data-scramble-text="The future depends on what you do today">The future depends on what you do today</p>
       </div>
     </div>
   );

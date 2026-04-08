@@ -4,11 +4,11 @@ function HeaderText() {
   return (
     <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
-        <p className="leading-[80px]">PASSION</p>
+        <p className="leading-[80px]" data-scramble-persist-key="passion-heading" data-scramble-text="PASSION">PASSION</p>
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[864px] text-[21px] top-[221px] whitespace-nowrap">
-        <p className="leading-[30px] mb-0">Lights out and away we go.</p>
-        <p className="leading-[30px]">Visited Tracks:</p>
+        <p className="leading-[30px] mb-0" data-scramble-chars="lowerCase" data-scramble-persist-key="passion-subtitle" data-scramble-text="Lights out and away we go.">Lights out and away we go.</p>
+        <p className="leading-[30px]" data-scramble-persist-key="passion-tracks-label" data-scramble-text="Visited Tracks:">Visited Tracks:</p>
       </div>
     </div>
   );
@@ -460,7 +460,7 @@ function Contact2() {
 
 function MenuBar() {
   return (
-    <div className="absolute contents left-[40.22%] right-[40.28%] top-[995px]" data-name="MenuBar">
+    <div className="absolute contents left-[40.22%] right-[40.28%] top-[995px] opacity-0 pointer-events-none select-none" data-name="MenuBar">
       <div className="absolute backdrop-blur-[32px] bg-[rgba(1,32,125,0.42)] inset-[89.08%_40.28%_2.6%_40.22%] rounded-[34px]" data-name="MenuBackground" />
       <Contact />
       <Contact1 />
@@ -471,7 +471,7 @@ function MenuBar() {
 
 function CasesName() {
   return (
-    <div className="absolute contents left-[716px] top-[281px]" data-name="CASES-NAME">
+    <div className="absolute contents left-[716px] top-[281px] opacity-0 pointer-events-none select-none" data-name="CASES-NAME">
       <div className="absolute bg-[#01207d] h-[57px] left-[716px] rounded-[21px] top-[281px] w-[140px]" />
       <div className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[26.95%_51.1%_71.89%_42.07%] justify-center leading-[0] not-italic text-[#b7f9ff] text-[21px] text-center uppercase">
         <p className="leading-[16.8px]">Zandvoort</p>
@@ -482,7 +482,7 @@ function CasesName() {
 
 function CasesName1() {
   return (
-    <div className="absolute contents left-[872px] top-[281px]" data-name="CASES-NAME">
+    <div className="absolute contents left-[872px] top-[281px] opacity-0 pointer-events-none select-none" data-name="CASES-NAME">
       <div className="absolute bg-[#b7f9ff] h-[57px] left-[872px] rounded-[21px] top-[281px] w-[140px]" />
       <div className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[26.95%_42.07%_71.89%_51.1%] justify-center leading-[0] not-italic text-[#01207d] text-[21px] text-center uppercase">
         <p className="leading-[16.8px]">RB-RING</p>
