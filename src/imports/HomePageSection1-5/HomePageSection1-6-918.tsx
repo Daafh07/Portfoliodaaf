@@ -10,9 +10,9 @@ function DhHeader() {
   return (
     <div className="absolute contents font-['Futura_Now_Headline',sans-serif] left-[-14px] not-italic text-center top-[3px]" data-name="DH-Header">
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col h-[318px] justify-center leading-[0] left-[850px] text-[#b7f9ff] text-[224px] top-[162px] w-[1728px]">
-        <p className="leading-[80px]" data-scramble-text="DAAF">DAAF</p>
+        <p className="leading-[80px]" data-scramble-persist-key="hero-daaf" data-scramble-text="DAAF">DAAF</p>
       </div>
-      <p className="-translate-x-1/2 absolute h-[103px] leading-[16.8px] left-[850px] text-[#01207d] text-[52px] top-[298px] uppercase w-[1728px]" data-scramble-text="HEIJNEKAMP">HEIJNEKAMP</p>
+      <p className="-translate-x-1/2 absolute h-[103px] leading-[16.8px] left-[850px] text-[#01207d] text-[52px] top-[298px] uppercase w-[1728px]" data-scramble-after="hero-daaf" data-scramble-persist-key="hero-heijnekamp" data-scramble-text="HEIJNEKAMP">HEIJNEKAMP</p>
     </div>
   );
 }

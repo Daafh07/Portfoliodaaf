@@ -117,18 +117,22 @@ export default function HomepageSection3Overlaycv() {
       <div
         className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[334.5px] not-italic text-[#01207d] text-[95px] text-center top-[628.5px] w-[427px]"
         data-work-first-step=""
+        data-work-step="2022"
+        data-work-step-anchor="2022"
       >
         <p className="leading-[116px]">2022</p>
       </div>
       <div
         className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[1384.5px] not-italic text-[#01207d] text-[95px] text-center top-[628.5px] w-[427px]"
         data-work-first-step=""
+        data-work-step="2022"
       >
         <p className="leading-[116px]">2022</p>
       </div>
       <div
         className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[232px] leading-[0] left-[334.5px] not-italic text-[#b7f9ff] text-[37px] text-center top-[728px] w-[671px]"
         data-work-first-step=""
+        data-work-step="2022"
       >
         <p className="leading-[63px] mb-0">Started at the Coop</p>
         <p className="leading-[63px]">as a shelf-stacker</p>
@@ -136,53 +140,54 @@ export default function HomepageSection3Overlaycv() {
       <div
         className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[232px] leading-[0] left-[1385px] not-italic text-[#b7f9ff] text-[37px] text-center top-[728px] w-[680px] whitespace-pre-wrap"
         data-work-first-step=""
+        data-work-step="2022"
       >
         <p className="leading-[63px] mb-0">{`Same year promoted to `}</p>
         <p className="leading-[63px]">a higher pay grade</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[330.5px] not-italic text-[#01207d] text-[95px] text-center top-[1706.5px] w-[427px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[330.5px] not-italic text-[#01207d] text-[95px] text-center top-[1706.5px] w-[427px]" data-work-step="2025" data-work-step-anchor="2025">
         <p className="leading-[116px]">2025</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[1380.5px] not-italic text-[#01207d] text-[95px] text-center top-[1706.5px] w-[427px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[1380.5px] not-italic text-[#01207d] text-[95px] text-center top-[1706.5px] w-[427px]" data-work-step="2025">
         <p className="leading-[116px]">2025</p>
       </div>
-      <div className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[232px] leading-[0] left-[330.5px] not-italic text-[#b7f9ff] text-[37px] text-center top-[1806px] w-[671px]">
+      <div className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[232px] leading-[0] left-[330.5px] not-italic text-[#b7f9ff] text-[37px] text-center top-[1806px] w-[671px]" data-work-step="2025">
         <p className="leading-[63px] mb-0">passes my HAVO exams</p>
         <p className="leading-[63px] mb-0">PLUS takes over Coop</p>
         <p className="leading-[63px]">&nbsp;</p>
       </div>
-      <div className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[348px] leading-[0] left-[1381px] not-italic text-[#b7f9ff] text-[37px] text-center top-[1806px] w-[680px]">
+      <div className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[348px] leading-[0] left-[1381px] not-italic text-[#b7f9ff] text-[37px] text-center top-[1806px] w-[680px]" data-work-step="2025">
         <p className="leading-[63px] mb-0">From my 18th birthday</p>
         <p className="leading-[63px] mb-0">until now, I have been</p>
         <p className="leading-[63px]">promoted to Team Leader</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[330.5px] not-italic text-[#01207d] text-[95px] text-center top-[2300.5px] w-[427px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[330.5px] not-italic text-[#01207d] text-[95px] text-center top-[2300.5px] w-[427px]" data-work-step="2026" data-work-step-anchor="2026">
         <p className="leading-[116px]">2026</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[1380.5px] not-italic text-[#01207d] text-[95px] text-center top-[2300.5px] w-[427px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[1380.5px] not-italic text-[#01207d] text-[95px] text-center top-[2300.5px] w-[427px]" data-work-step="2026">
         <p className="leading-[116px]">2026</p>
       </div>
-      <div className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[116px] leading-[0] left-[330.5px] not-italic text-[#b7f9ff] text-[37px] text-center top-[2400px] w-[671px]">
+      <div className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[116px] leading-[0] left-[330.5px] not-italic text-[#b7f9ff] text-[37px] text-center top-[2400px] w-[671px]" data-work-step="2026">
         <p className="leading-[63px] mb-0">Team Leader at PLUS</p>
         <p className="leading-[63px]">&nbsp;</p>
       </div>
-      <div className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[348px] leading-[0] left-[1381px] not-italic text-[#b7f9ff] text-[37px] text-center top-[2400px] w-[680px] whitespace-pre-wrap">
+      <div className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[348px] leading-[0] left-[1381px] not-italic text-[#b7f9ff] text-[37px] text-center top-[2400px] w-[680px] whitespace-pre-wrap" data-work-step="2026">
         <p className="leading-[63px] mb-0">{`IT and intern rota `}</p>
         <p className="leading-[63px] mb-0">{`management support `}</p>
         <p className="leading-[63px] mb-0">{`at WIVON, when I `}</p>
         <p className="leading-[63px]">have days off</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[335.5px] not-italic text-[#01207d] text-[95px] text-center top-[1115.5px] w-[427px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[335.5px] not-italic text-[#01207d] text-[95px] text-center top-[1115.5px] w-[427px]" data-work-step="2024" data-work-step-anchor="2024">
         <p className="leading-[116px]">2024</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[1385.5px] not-italic text-[#01207d] text-[95px] text-center top-[1115.5px] w-[427px]">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[1385.5px] not-italic text-[#01207d] text-[95px] text-center top-[1115.5px] w-[427px]" data-work-step="2024">
         <p className="leading-[116px]">2024</p>
       </div>
-      <div className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[232px] leading-[0] left-[335.5px] not-italic text-[#b7f9ff] text-[37px] text-center top-[1215px] w-[671px]">
+      <div className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[232px] leading-[0] left-[335.5px] not-italic text-[#b7f9ff] text-[37px] text-center top-[1215px] w-[671px]" data-work-step="2024">
         <p className="leading-[63px] mb-0">Learning more about</p>
         <p className="leading-[63px]">closing procedures</p>
       </div>
-      <div className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[348px] leading-[0] left-[1386px] not-italic text-[#b7f9ff] text-[37px] text-center top-[1215px] w-[680px] whitespace-pre-wrap">
+      <div className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[348px] leading-[0] left-[1386px] not-italic text-[#b7f9ff] text-[37px] text-center top-[1215px] w-[680px] whitespace-pre-wrap" data-work-step="2024">
         <p className="leading-[63px] mb-0">Moved away from only</p>
         <p className="leading-[63px] mb-0">{`stocking shelvers to work `}</p>
         <p className="leading-[63px]">at every department</p>

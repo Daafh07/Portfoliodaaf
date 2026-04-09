@@ -6,6 +6,7 @@ export function ScrambleTextEffect() {
   const animatedElements = useRef(new WeakSet<HTMLElement>());
   const observedElements = useRef(new WeakSet<HTMLElement>());
   const persistedAnimations = useRef(new Set<string>());
+  const completedAnimations = useRef(new Set<string>());
 
   useEffect(() => {
     let mutationObserver: MutationObserver | undefined;
@@ -35,6 +36,12 @@ export function ScrambleTextEffect() {
         const text = header.dataset.scrambleText || header.textContent || "";
         const chars = header.dataset.scrambleChars || "upperCase";
         const persistKey = header.dataset.scramblePersistKey;
+        const waitForKey = header.dataset.scrambleAfter;
+
+        if (waitForKey && !completedAnimations.current.has(waitForKey)) {
+          window.setTimeout(() => animateHeader(header), 90);
+          return;
+        }
 
         animatedElements.current.add(header);
         header.textContent = "";
@@ -48,6 +55,11 @@ export function ScrambleTextEffect() {
           gsap.to(header, {
             duration: Math.min(2.6, Math.max(1.05, text.length * 0.055)),
             ease: "none",
+            onComplete: () => {
+              if (persistKey) {
+                completedAnimations.current.add(persistKey);
+              }
+            },
             scrambleText: {
               text,
               chars,
@@ -94,6 +106,7 @@ export function ScrambleTextEffect() {
             animatedElements.current.add(header);
             header.textContent = text;
             header.dataset.scrambleVisible = "true";
+            completedAnimations.current.add(persistKey);
             return;
           }
 

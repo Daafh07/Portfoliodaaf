@@ -1,6 +1,6 @@
 import svgPaths from "./svg-6w2d5fe5hx";
 
-function Contact() {
+function Contact({ label = "Contact" }: { label?: string }) {
   return (
     <div className="absolute contents inset-[15.05%_4.94%_13.98%_52.23%]" data-name="Contact">
       <div
@@ -11,7 +11,7 @@ function Contact() {
         className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[39.78%_12.39%_41.94%_59.64%] justify-center leading-[0] not-italic text-[23px] text-center uppercase"
         style={{ color: "var(--theme-dark)" }}
       >
-        <p className="leading-[16.8px]">Contact</p>
+        <p className="leading-[16.8px]">{label}</p>
       </div>
     </div>
   );
@@ -43,7 +43,7 @@ function Contact2() {
   );
 }
 
-export default function MenuBar() {
+export default function MenuBar({ contactLabel = "Contact" }: { contactLabel?: string }) {
   return (
     <div className="relative size-full" data-name="MenuBar">
       <div
@@ -51,7 +51,7 @@ export default function MenuBar() {
         data-name="MenuBackground"
         style={{ backgroundColor: "color-mix(in srgb, var(--theme-dark) 42%, transparent)" }}
       />
-      <Contact />
+      <Contact label={contactLabel} />
       <Contact1 />
       <Contact2 />
     </div>
