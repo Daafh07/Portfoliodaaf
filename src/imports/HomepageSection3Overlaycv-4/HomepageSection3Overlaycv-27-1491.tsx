@@ -3,11 +3,15 @@ const imgRbcar1 = "/assets/images/79b1eee439075467dc500e82791c7af65307b3f0.png";
 
 function HeaderText() {
   return (
-    <div className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]" data-name="HeaderText">
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[125px] w-[2111px]">
+    <div
+      className="absolute contents leading-[0] left-[-192px] not-italic text-[#b7f9ff] text-center top-[42px]"
+      data-name="HeaderText"
+      data-work-intro-copy=""
+    >
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[166px] justify-center left-[863.5px] text-[107px] top-[95px] w-[2111px]">
         <p className="leading-[80px]" data-scramble-text="WORK">WORK</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[863.5px] text-[21px] top-[208px] whitespace-nowrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter',sans-serif] font-medium justify-center left-[863.5px] text-[21px] top-[178px] whitespace-nowrap">
         <p className="leading-[80px]" data-scramble-chars="lowerCase" data-scramble-text="The future depends on what you do today">The future depends on what you do today</p>
       </div>
     </div>
@@ -97,7 +101,11 @@ export default function HomepageSection3Overlaycv() {
           </svg>
         </div>
       </div>
-      <div className="absolute flex h-[696.828px] items-center justify-center left-[720px] top-[327px] w-[276.482px]" style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}>
+      <div
+        className="absolute flex h-[696.828px] items-center justify-center left-[720px] top-[327px] w-[276.482px]"
+        data-work-car=""
+        style={{ "--transform-inner-width": "1200", "--transform-inner-height": "19" } as React.CSSProperties}
+      >
         <div className="flex-none rotate-[-90.18deg]">
           <div className="h-[274.334px] relative w-[695.984px]" data-name="RBCAR 1">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -106,17 +114,29 @@ export default function HomepageSection3Overlaycv() {
           </div>
         </div>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[334.5px] not-italic text-[#01207d] text-[95px] text-center top-[628.5px] w-[427px]">
+      <div
+        className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[334.5px] not-italic text-[#01207d] text-[95px] text-center top-[628.5px] w-[427px]"
+        data-work-first-step=""
+      >
         <p className="leading-[116px]">2022</p>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[1384.5px] not-italic text-[#01207d] text-[95px] text-center top-[628.5px] w-[427px]">
+      <div
+        className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Futura_Now_Headline',sans-serif] h-[199px] justify-center leading-[0] left-[1384.5px] not-italic text-[#01207d] text-[95px] text-center top-[628.5px] w-[427px]"
+        data-work-first-step=""
+      >
         <p className="leading-[116px]">2022</p>
       </div>
-      <div className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[232px] leading-[0] left-[334.5px] not-italic text-[#b7f9ff] text-[37px] text-center top-[728px] w-[671px]">
+      <div
+        className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[232px] leading-[0] left-[334.5px] not-italic text-[#b7f9ff] text-[37px] text-center top-[728px] w-[671px]"
+        data-work-first-step=""
+      >
         <p className="leading-[63px] mb-0">Started at the Coop</p>
         <p className="leading-[63px]">as a shelf-stacker</p>
       </div>
-      <div className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[232px] leading-[0] left-[1385px] not-italic text-[#b7f9ff] text-[37px] text-center top-[728px] w-[680px] whitespace-pre-wrap">
+      <div
+        className="-translate-x-1/2 absolute font-['Inter',sans-serif] h-[232px] leading-[0] left-[1385px] not-italic text-[#b7f9ff] text-[37px] text-center top-[728px] w-[680px] whitespace-pre-wrap"
+        data-work-first-step=""
+      >
         <p className="leading-[63px] mb-0">{`Same year promoted to `}</p>
         <p className="leading-[63px]">a higher pay grade</p>
       </div>
