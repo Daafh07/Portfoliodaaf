@@ -45,10 +45,10 @@ export function PassionTrackOverlay({
           data-text-hover-trigger={!zandvoortSelected ? "" : undefined}
           style={
             {
-              "--track-bg": zandvoortSelected ? "#b7f9ff" : "#01207d",
-              "--track-fg": zandvoortSelected ? "#01207d" : "#b7f9ff",
-              "--track-hover-bg": zandvoortSelected ? "#01207d" : "#b7f9ff",
-              "--track-hover-fg": zandvoortSelected ? "#b7f9ff" : "#01207d",
+              "--track-bg": zandvoortSelected ? "var(--theme-light)" : "var(--theme-dark)",
+              "--track-fg": zandvoortSelected ? "var(--theme-dark)" : "var(--theme-light)",
+              "--track-hover-bg": zandvoortSelected ? "var(--theme-dark)" : "var(--theme-light)",
+              "--track-hover-fg": zandvoortSelected ? "var(--theme-light)" : "var(--theme-dark)",
             } as CSSProperties
           }
         >
@@ -77,10 +77,10 @@ export function PassionTrackOverlay({
           data-text-hover-trigger={!rbRingSelected ? "" : undefined}
           style={
             {
-              "--track-bg": rbRingSelected ? "#b7f9ff" : "#01207d",
-              "--track-fg": rbRingSelected ? "#01207d" : "#b7f9ff",
-              "--track-hover-bg": rbRingSelected ? "#01207d" : "#b7f9ff",
-              "--track-hover-fg": rbRingSelected ? "#b7f9ff" : "#01207d",
+              "--track-bg": rbRingSelected ? "var(--theme-light)" : "var(--theme-dark)",
+              "--track-fg": rbRingSelected ? "var(--theme-dark)" : "var(--theme-light)",
+              "--track-hover-bg": rbRingSelected ? "var(--theme-dark)" : "var(--theme-light)",
+              "--track-hover-fg": rbRingSelected ? "var(--theme-light)" : "var(--theme-dark)",
             } as CSSProperties
           }
         >
@@ -103,7 +103,7 @@ export function PassionTrackOverlay({
         </button>
       </div>
 
-      <div className="absolute inset-0 h-[1117px] w-[1728px] overflow-hidden bg-[#0779ff]">
+      <div className="absolute inset-0 h-[1117px] w-[1728px] overflow-hidden bg-[#0779ff]" style={{ backgroundColor: "var(--theme-bg)" }}>
         {selectedTrack === "zandvoort" ? <ZandvoortTrack /> : <RBRingTrack />}
       </div>
     </div>

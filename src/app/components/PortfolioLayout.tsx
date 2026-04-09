@@ -4,10 +4,33 @@ import { useState, useEffect, useRef } from "react";
 import LoadingScreen from "../../imports/LoadingScreen-3-1/LoadingScreen-9-99";
 import { HomePageWithToggle } from "./HomePageWithToggle";
 import MenuBarWrapper from "./MenuBarWrapper";
+import {
+  DEFAULT_HOME_COLOR_PALETTE_ID,
+  getHomeColorPalette,
+  getHomeColorThemeStyle,
+  HOME_COLOR_PALETTES,
+  HOME_COLOR_PALETTE_STORAGE_KEY,
+  getStoredHomeColorPaletteId,
+} from "../home/colorPalettes";
 
 export function PortfolioLayout() {
   const [loading, setLoading] = useState(true);
+  const [selectedPaletteId, setSelectedPaletteId] = useState(DEFAULT_HOME_COLOR_PALETTE_ID);
+  const [paletteReady, setPaletteReady] = useState(false);
   const menuBarRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    setSelectedPaletteId(getStoredHomeColorPaletteId());
+    setPaletteReady(true);
+  }, []);
+
+  useEffect(() => {
+    if (!paletteReady) {
+      return;
+    }
+
+    window.sessionStorage.setItem(HOME_COLOR_PALETTE_STORAGE_KEY, selectedPaletteId);
+  }, [paletteReady, selectedPaletteId]);
 
   useEffect(() => {
     // Show loading screen for 3 seconds
@@ -153,9 +176,20 @@ export function PortfolioLayout() {
   const LOADING_WIDTH = 1728;
   const LOADING_HEIGHT = 1117;
 
+  // Figma design dimensions
+  const DESIGN_WIDTH = 1728;
+  const DESIGN_HEIGHT = 5571;
+  const activePalette = getHomeColorPalette(selectedPaletteId);
+  const themeStyle = getHomeColorThemeStyle(selectedPaletteId);
+
   if (loading) {
     return (
-      <div className="fixed inset-0 z-50 bg-[#0779ff] flex items-center justify-center overflow-hidden" data-loading-screen>
+      <div
+        suppressHydrationWarning
+        className="theme-skin fixed inset-0 z-50 flex items-center justify-center overflow-hidden"
+        data-loading-screen
+        style={{ ...themeStyle, backgroundColor: activePalette.colors.bg }}
+      >
         {/* Scaled loading screen - fills entire viewport and stays centered */}
         <div 
           className="absolute"
@@ -174,12 +208,15 @@ export function PortfolioLayout() {
     );
   }
 
-  // Figma design dimensions
-  const DESIGN_WIDTH = 1728;
-  const DESIGN_HEIGHT = 5571;
-
   return (
-    <div className="relative w-full min-h-screen bg-[#0779ff] overflow-y-auto overflow-x-hidden">
+    <div
+      suppressHydrationWarning
+      className="theme-skin relative w-full min-h-screen bg-[#0779ff] overflow-y-auto overflow-x-hidden"
+      style={{
+        ...themeStyle,
+        backgroundColor: activePalette.colors.bg,
+      }}
+    >
       {/* Wrapper that centers and creates scroll space */}
       <div 
         className="mx-auto"
@@ -215,8 +252,12 @@ export function PortfolioLayout() {
           maxWidth: "calc(100vw - 32px)",
           pointerEvents: "none",
         }}
-      >
-        <MenuBarWrapper />
+        >
+        <MenuBarWrapper
+          colorPalettes={HOME_COLOR_PALETTES}
+          onSelectPalette={setSelectedPaletteId}
+          selectedPaletteId={selectedPaletteId}
+        />
       </div>
     </div>
   );
