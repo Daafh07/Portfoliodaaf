@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import LoadingScreen from "../../imports/LoadingScreen-3-1/LoadingScreen-9-99";
 import { HomePageWithToggle } from "./HomePageWithToggle";
+import { LoadingStatus } from "./LoadingStatus";
 import MenuBarWrapper from "./MenuBarWrapper";
 import {
   DEFAULT_HOME_COLOR_PALETTE_ID,
@@ -12,6 +13,7 @@ import {
   HOME_COLOR_PALETTE_STORAGE_KEY,
   getStoredHomeColorPaletteId,
 } from "../home/colorPalettes";
+import { waitForPageReady } from "../lib/pageReady";
 
 export function PortfolioLayout() {
   const [loading, setLoading] = useState(true);
@@ -33,12 +35,21 @@ export function PortfolioLayout() {
   }, [paletteReady, selectedPaletteId]);
 
   useEffect(() => {
-    // Show loading screen for 3 seconds
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 3000);
+    let isMounted = true;
 
-    return () => clearTimeout(timer);
+    const releaseLoading = async () => {
+      await waitForPageReady();
+
+      if (isMounted) {
+        setLoading(false);
+      }
+    };
+
+    releaseLoading();
+
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
   useEffect(() => {
@@ -204,6 +215,7 @@ export function PortfolioLayout() {
         >
           <LoadingScreen />
         </div>
+        <LoadingStatus />
       </div>
     );
   }

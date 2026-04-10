@@ -7,7 +7,7 @@ const imgImg65651 = "/assets/images/c7ed376477b4f212ea453adec3ca8d88d86f791b.png
 const imgImg65611 = "/assets/images/c67e6d54d449b6673f188378dae42306479c61e8.png";
 const imgImg75361 = "/assets/images/c5a0d9229b597efdd929c1c18cee078439adeba9.png";
 const imgImg755711 = "/assets/images/527fe171b70c8e1903a1c7beef5f3e2a0c1567e9.png";
-import Link from "next/link";
+import { TransitionRouteLink } from "../../app/components/TransitionRouteLink";
 
 function HeaderText() {
   return (
@@ -60,10 +60,12 @@ function BackNext1() {
 function Contact() {
   return (
     <div className="absolute bottom-[1.35%] contents left-1/2 right-[41.65%] top-[96.7%]" data-name="Contact">
-      <Link href="/" className="absolute bg-[#b7f9ff] bottom-[1.35%] left-1/2 right-[41.65%] rounded-[25px] top-[96.7%] hover:bg-[#01207d] transition-colors" />
-      <Link href="/" className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[97.38%_43.1%_2.12%_51.45%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase hover:text-[#b7f9ff] transition-colors no-underline pointer-events-auto">
+      <TransitionRouteLink href="/" className="absolute bg-[#b7f9ff] bottom-[1.35%] left-1/2 right-[41.65%] rounded-[25px] top-[96.7%] hover:bg-[#01207d] transition-colors" >
+        <span className="sr-only">HOME</span>
+      </TransitionRouteLink>
+      <TransitionRouteLink href="/" className="absolute flex flex-col font-['Futura_Now_Headline',sans-serif] inset-[97.38%_43.1%_2.12%_51.45%] justify-center leading-[0] not-italic text-[#01207d] text-[23px] text-center uppercase hover:text-[#b7f9ff] transition-colors no-underline pointer-events-auto">
         <p className="leading-[16.8px]">HOME</p>
-      </Link>
+      </TransitionRouteLink>
     </div>
   );
 }

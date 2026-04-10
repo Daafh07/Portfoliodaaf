@@ -2,8 +2,8 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import HomepageSection3Overlaycv from "../../imports/HomepageSection3Overlaycv-4/HomepageSection3Overlaycv-27-1491";
-import Link from "next/link";
 import MenuBar from "../../imports/MenuBar/MenuBar";
+import { TransitionRouteLink } from "../components/TransitionRouteLink";
 import {
   HOME_COLOR_PALETTES,
   HOME_COLOR_PALETTE_STORAGE_KEY,
@@ -36,6 +36,7 @@ export function WorkPage() {
   useEffect(() => {
     let cleanup: (() => void) | undefined;
     let resizeFrame = 0;
+    let initFrame = 0;
     let removeResizeListeners: (() => void) | undefined;
 
     const init = async () => {
@@ -108,8 +109,10 @@ export function WorkPage() {
             start: "top 28%",
             end: () => `+=${Math.round((totalOffset + 900) * getScale())}`,
             pin: section,
+            pinType: "fixed",
+            pinReparent: true,
             scrub: true,
-            anticipatePin: 1,
+            anticipatePin: 0,
             invalidateOnRefresh: true,
             onUpdate: async (self: { progress: number }) => {
               const p = clamp01(self.progress);
@@ -180,7 +183,12 @@ export function WorkPage() {
         return () => ctx.revert();
       };
 
-      cleanup = buildTimeline();
+      initFrame = window.requestAnimationFrame(() => {
+        cleanup = buildTimeline();
+        window.requestAnimationFrame(() => {
+          ScrollTrigger.refresh();
+        });
+      });
 
       const rebuild = () => {
         cleanup?.();
@@ -197,6 +205,7 @@ export function WorkPage() {
       window.addEventListener("orientationchange", handleResize);
 
       removeResizeListeners = () => {
+        window.cancelAnimationFrame(initFrame);
         window.cancelAnimationFrame(resizeFrame);
         window.removeEventListener("resize", handleResize);
         window.removeEventListener("orientationchange", handleResize);
@@ -243,11 +252,12 @@ export function WorkPage() {
 
           <MenuBar contactLabel="Home" />
 
-          <Link
-            aria-label="Ga naar home"
-            className="absolute inset-[15.05%_4.94%_13.98%_52.23%] rounded-[25px]"
+          <TransitionRouteLink
             href="/"
-          />
+            className="absolute inset-[15.05%_4.94%_13.98%_52.23%] rounded-[25px]"
+          >
+            <span className="sr-only">HOME</span>
+          </TransitionRouteLink>
 
           <button
             aria-label="Open kleurkeuze"
@@ -278,15 +288,12 @@ export function WorkPage() {
         <div
           className="mx-auto"
           style={{
-            backfaceVisibility: "hidden",
-            contain: "layout paint style",
             width: `${DESIGN_WIDTH}px`,
             height: `${DESIGN_HEIGHT}px`,
             transformOrigin: "top center",
             transform: `translate3d(-50%, 0, 0) scale(calc(100vw / ${DESIGN_WIDTH}px))`,
             marginLeft: "50%",
             marginRight: "50%",
-            willChange: "transform",
           }}
         >
           <HomepageSection3Overlaycv />

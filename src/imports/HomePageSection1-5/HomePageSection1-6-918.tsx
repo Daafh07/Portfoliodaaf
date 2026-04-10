@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { TransitionRouteLink } from "../../app/components/TransitionRouteLink";
 import svgPaths from "./svg-ovgztycmgm";
 const imgDaafNotion1 = "/assets/images/59b214f6f87477565a8984858d28c7b0ae87d4e5.png";
 const imgCases = "/assets/images/300c6d13ef3faa37b179257e77259f2d6542ab87.png";
@@ -272,16 +273,20 @@ function HomepageSection1() {
           <span>,</span>
         </p>
         <p className="mb-0 leading-[116px]">
-          <Link href="/work" className="inline-block self-center text-[#01207d] transition-colors hover:text-[#b7f9ff] no-underline" data-anim="text-hover" data-text-hover-view="loose" split-text="chars">
-            SUPERMARKET TEAMLEADER
-          </Link>
+          <TransitionRouteLink href="/work" className="inline-block self-center text-[#01207d] transition-colors hover:text-[#b7f9ff] no-underline" >
+            <span data-anim="text-hover" data-text-hover-view="loose" split-text="chars">
+              SUPERMARKET TEAMLEADER
+            </span>
+          </TransitionRouteLink>
           <span>,</span>
         </p>
         <p className="mb-0 leading-[116px]">
           <span className="inline-flex items-start gap-[0.08em]">
-            <Link href="/travel" className="inline-block text-[#01207d] hover:text-[#b7f9ff] transition-colors no-underline" data-anim="text-hover" data-text-hover-view="loose" split-text="chars">
-              TRAVEL
-            </Link>
+            <TransitionRouteLink href="/travel" className="inline-block text-[#01207d] hover:text-[#b7f9ff] transition-colors no-underline">
+              <span data-anim="text-hover" data-text-hover-view="loose" split-text="chars">
+                TRAVEL
+              </span>
+            </TransitionRouteLink>
             <span>&</span>
             <span className="inline-block text-[#01207d] hover:text-[#b7f9ff] transition-colors" data-anim="text-hover" data-text-hover-view="loose" split-text="chars">
               FOOD ADDICT

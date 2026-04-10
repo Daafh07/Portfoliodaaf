@@ -47,6 +47,7 @@ export function TravelPage() {
           <HomepageSection3Overlaytravel />
         </div>
       </div>
+
     </div>
   );
 }
