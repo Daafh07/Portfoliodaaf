@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import HomepageSection3Overlaytravel from "../../imports/HomepageSection3Overlaytravel-1/HomepageSection3Overlaytravel";
+import TravelPageDesign from "../../imports/travel-page/TravelPageDesign";
 import {
   getHomeColorPalette,
   getStoredHomeColorPaletteId,
@@ -44,7 +44,7 @@ export function TravelPage() {
             translate: "-50% 0"
           }}
         >
-          <HomepageSection3Overlaytravel />
+          <TravelPageDesign />
         </div>
       </div>
 

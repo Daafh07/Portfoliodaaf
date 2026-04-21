@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import LoadingScreen from "../../imports/LoadingScreen-3-1/LoadingScreen-9-99";
+import LoadingScreen from "../../imports/loading-screen/LoadingScreen";
 import { HomePageWithToggle } from "./HomePageWithToggle";
 import { LoadingStatus } from "./LoadingStatus";
 import MenuBarWrapper from "./MenuBarWrapper";

@@ -1,8 +1,8 @@
 "use client";
 
 import type { CSSProperties } from "react";
-import ZandvoortTrack from "../../../imports/HomepageSection4/HomepageSection4-9-427";
-import RBRingTrack from "../../../imports/HomepageSection41-2/HomepageSection41-1-1279";
+import ZandvoortTrack from "../../../imports/race-track-zandvoort/ZandvoortTrack";
+import RBRingTrack from "../../../imports/race-track-red-bull-ring/RedBullRingTrack";
 import type { TrackName } from "../config";
 import { usePassionIconIdleMotion } from "../hooks/usePassionIconIdleMotion";
 

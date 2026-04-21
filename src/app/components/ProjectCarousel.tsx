@@ -1,7 +1,7 @@
 "use client";
 
 import { HTMLAttributes, PointerEvent, useRef, useState } from "react";
-import svgPaths from "../../imports/HomePageSection1-1-2/svg-ku65gtjwxc";
+import svgPaths from "../../imports/project-carousel/svgPaths";
 
 const imgLivewall = "/assets/images/300c6d13ef3faa37b179257e77259f2d6542ab87.png";
 const imgEduCheck = "/assets/images/8e34e3de2f726cfa1f125c98a6613c41306d2d96.png";

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import HomePageSection16918 from "../../imports/HomePageSection1-5/HomePageSection1-6-918";
+import HomePage from "../../imports/home-page/HomePage";
 import { ProjectCarousel } from "./ProjectCarousel";
 import { FooterOverlay } from "../home/components/FooterOverlay";
 import { PassionTrackOverlay } from "../home/components/PassionTrackOverlay";
@@ -25,7 +25,7 @@ export function HomePageWithToggle() {
 
   return (
     <div className="relative w-full h-full">
-      <HomePageSection16918 />
+      <HomePage />
 
       <div id="work-section">
         <ProjectCarousel />

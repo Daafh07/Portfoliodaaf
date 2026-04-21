@@ -4,7 +4,7 @@ import { DESIGN_WIDTH, HOME_SECTION_POSITIONS, type HomeSectionName } from "../h
 import {
   type HomeColorPalette,
 } from "../home/colorPalettes";
-import MenuBar from "../../imports/MenuBar/MenuBar";
+import MenuBar from "../../imports/menu-bar/MenuBar";
 import { useMemo, useState } from "react";
 
 const contactButtonInset = "inset-[15.05%_4.94%_13.98%_52.23%]";

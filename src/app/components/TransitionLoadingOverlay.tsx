@@ -1,6 +1,6 @@
 "use client";
 
-import LoadingScreen from "../../imports/LoadingScreen-3-1/LoadingScreen-9-99";
+import LoadingScreen from "../../imports/loading-screen/LoadingScreen";
 import { getHomeColorPalette, getHomeColorThemeStyle } from "../home/colorPalettes";
 import { LoadingStatus } from "./LoadingStatus";
 

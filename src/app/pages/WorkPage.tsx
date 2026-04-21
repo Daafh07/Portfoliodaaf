@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import HomepageSection3Overlaycv from "../../imports/HomepageSection3Overlaycv-4/HomepageSection3Overlaycv-27-1491";
-import MenuBar from "../../imports/MenuBar/MenuBar";
+import WorkTimeline from "../../imports/work-timeline/WorkTimeline";
+import MenuBar from "../../imports/menu-bar/MenuBar";
 import { TransitionRouteLink } from "../components/TransitionRouteLink";
 import {
   HOME_COLOR_PALETTES,
@@ -296,7 +296,7 @@ export function WorkPage() {
             marginRight: "50%",
           }}
         >
-          <HomepageSection3Overlaycv />
+          <WorkTimeline />
         </div>
       </div>
     </div>
